@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAd.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdConfig.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdBannerView.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdIPrivate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/defs.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdLoader.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdLoaderDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdError.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdModel.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdInspector.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdInspectorDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdUtility.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdRenderer.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdRendererBase.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/UIView+Additions.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdActionDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAction.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdActionBase.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdBeaconDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAuto.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAutoDelegate.h \
+  /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdConfigPrivate.h

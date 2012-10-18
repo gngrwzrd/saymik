@@ -1,0 +1,165 @@
+SEE DEVELOPER.SAYMEDIA.COM FOR MORE INFORMATION
+
+KNOWN ISSUES
+==============================================================================
+
+-SBJSON
+ We use SBJSON 3.0 internally. If you're using any earlier version
+ you may run into an unrecognized selector error. "[SBJsonParser
+ objectWithData:]: unrecognized selector sent to instance"
+
+
+RELEASES
+==============================================================================
+
+06-30-2011: Versions 2.0.13
+------------------------------------------------------------------------------
+
+-Hashed the device id with MD5
+
+-Added session beacons (init, admodelreceived, echo, closed) to smad.js.
+ Ads can now send session beacons. The ads will only send session beacons
+ when a few hook methods are called (adWasShown, adWasDestroyed). The SDK
+ calls these methods only if model.canSendSessionBeacons is true, which
+ triggers the beacons to fire.
+
+-Added app foreground / background beacon firing to smad.js. They will only
+ fire when the SDK calls adBecameActive, adBecameInactive and
+ model.canSendAppFocusBeacons is true.
+
+-Appended kvtech, kvdid, bid to ad call.
+
+
+06-14-2011: Versions 2.0.12
+------------------------------------------------------------------------------
+
+-Reverted the init beacon change from version 2.0.8 which was causing
+ invalid beacon sessions.
+
+
+06-02-2011: Versions 2.0.11
+------------------------------------------------------------------------------
+
+-Changed SMAdBannerView to update frame before being given to delegate.
+
+-Fixed issue with duplicate init being sent in house ad beacon sessions.
+
+
+05-17-2011: Versions 2.0.10
+------------------------------------------------------------------------------
+
+-Hotfix for previous gen phones with previous gen iOS.
+
+
+05-05-2011: Versions 2.0.8
+------------------------------------------------------------------------------
+
+-(05-05-2011) Moved init beacon into SMAd. It fires immediately now.
+
+-Made the integration kit compile against the 3.0 SDK and run in 3.0
+ simulator. There were a few things preventing that from running correctly.
+
+
+05-04-2011: Versions 2.0.7
+------------------------------------------------------------------------------
+
+-Hotfix for SMS feature for devices running iOS earlier than 4.0. Apps with
+ our framework were crashing on startup with 3.X iOS. Solution is to weak
+ link MessageUI framework. We also put in checks at runtime to check if
+ the class exists before proceeding to use it.
+
+
+04-25-2011: Versions 2.0.6
+------------------------------------------------------------------------------
+
+-Added load results beacons in error situations.
+
+
+04-14-2011: Versions 2.0.5
+------------------------------------------------------------------------------
+
+-Fixed an issue with webview frames in V1 renderer.
+
+
+04-13-2011: Versions 2.0.4
+------------------------------------------------------------------------------
+
+-Added a blackout view behind the ad takeover content when a movie is going
+ to play. There's a case in pre 4.3 SDK where presenting a movie player
+ view controller would disappear for a few seconds, before finally coming into
+ view.
+
+-Added new ViewController sub class to fix a bug documented here:
+ [h]ttp://stackoverflow.com/questions/3089692/ipad-rotation-bug-when-
+ using-mpmovieplayerviewcontroller
+
+
+04-09-2011: Versions 2.0.3
+------------------------------------------------------------------------------
+
+-Exposed the private method interstitialAvailable on SMAd.
+
+-Fixed a case where calling interstitialAvailable would report true even
+ though an interstitial wasn't really available.
+
+
+04-07-2011: Versions 2.0.2
+------------------------------------------------------------------------------
+
+-Fixed an issue with requesting banners and interstitials at the same time.
+ Previously requesting a banner while an interstitial request was still
+ waiting for a response would cause incorrect display behavior.
+
+-Updated examples iPhone/iPad - moved the Say/Banner/Interstitial buttons into
+ a container view so that when rotated they don't shift around.
+
+-When an interstitial ad is displayed it doesn't pause auto updating of banner
+ ads.
+
+
+03-31-2011 : Version 2.0.1
+------------------------------------------------------------------------------
+
+-Fixed issue with getting key window from [[UIApplication sharedApplication] \
+ keyWindow]. Key window would be incorrect when an alert view is shown, or a
+ sheet is shown. There's a new method that correctly gets the key window that
+ isn't an alert or sheet.
+
+
+03-30-2011 : Version 2.0, Initial Release
+------------------------------------------------------------------------------
+
+This is the initial release of version 2.0. The Say Media integration kit was
+completely re-written; to solidify the interface, provide backward
+compatibility and future compatibility, and a few new features.
+
+The public interface for the Integration Kit has changed significantly. You
+should review the header files and examples. The integration process is
+similar but method names and class names have changed.
+
+New Integration Kit Features:
+
+- Orientation support
+- Auto request banner ads
+
+New Ad Features:
+
+- Alerts
+- Prompts
+- Phone calls
+- iOS Video Playback
+- HTML5 inline video playback
+- Accelerometer
+- Shake
+- Email
+- SMS
+- Download to Photo Library
+- Save Contact to Address Book
+- Action & Event driven javascript API
+- Event tracking aligns with Say Media's new mobile beacon documentation
+
+AdWhirl Updates:
+
+Included in the distribution is a new Say Media adapter for AdWhirl. Say Media
+is actively trying to update the adwhirl project to include our new adapter -
+look for an update for adwhirl in the future.

@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49321B46133E9325003216CB /* SMAdBannerRendererV2_2WebViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 49321B44133E9325003216CB /* SMAdBannerRendererV2_2WebViews.h */; };
+		49321B47133E9325003216CB /* SMAdBannerRendererV2_2WebViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 49321B45133E9325003216CB /* SMAdBannerRendererV2_2WebViews.m */; };
+		4934485B1321EB6400718E20 /* SMAdTPB.h in Headers */ = {isa = PBXBuildFile; fileRef = 493448591321EB6400718E20 /* SMAdTPB.h */; };
+		493448651321ECC100718E20 /* SMAdTPBDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 493448641321ECC100718E20 /* SMAdTPBDelegate.h */; };
+		493451AA13246EDC00718E20 /* SMAdActionShowTakeover.h in Headers */ = {isa = PBXBuildFile; fileRef = 493451A813246EDC00718E20 /* SMAdActionShowTakeover.h */; };
+		493451AB13246EDC00718E20 /* SMAdActionShowTakeover.m in Sources */ = {isa = PBXBuildFile; fileRef = 493451A913246EDC00718E20 /* SMAdActionShowTakeover.m */; };
+		4934B4421329BB9300B4E2F8 /* SMAdActionAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 4934B4401329BB9300B4E2F8 /* SMAdActionAlert.h */; };
+		4934B4431329BB9300B4E2F8 /* SMAdActionAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4934B4411329BB9300B4E2F8 /* SMAdActionAlert.m */; };
+		493B352C13346C3A00A9DCE1 /* SMAdIPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B352A13346C3A00A9DCE1 /* SMAdIPrivate.h */; };
+		493B352D13346C3A00A9DCE1 /* SMAdIPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B352B13346C3A00A9DCE1 /* SMAdIPrivate.m */; };
+		493B35A113348F1500A9DCE1 /* SMAdConfigPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B359F13348F1500A9DCE1 /* SMAdConfigPrivate.h */; };
+		493B35A213348F1500A9DCE1 /* SMAdConfigPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B35A013348F1500A9DCE1 /* SMAdConfigPrivate.m */; };
+		493B39F71335419500A9DCE1 /* SMAdBannerViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B39F61335419500A9DCE1 /* SMAdBannerViewInternal.h */; };
+		493B39FA1335424B00A9DCE1 /* SMAdBannerViewPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B39F81335424B00A9DCE1 /* SMAdBannerViewPrivate.h */; };
+		493B39FB1335424B00A9DCE1 /* SMAdBannerViewPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B39F91335424B00A9DCE1 /* SMAdBannerViewPrivate.m */; };
+		493B3B951336731900A9DCE1 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 493B3B931336731900A9DCE1 /* Reachability.h */; };
+		493B3B961336731900A9DCE1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 493B3B941336731900A9DCE1 /* Reachability.m */; };
+		493B3B981336732600A9DCE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493B3B971336732600A9DCE1 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4940425F133A7AC8008F54A1 /* SMAdActionTPB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4940425D133A7AC8008F54A1 /* SMAdActionTPB.h */; };
+		49404260133A7AC8008F54A1 /* SMAdActionTPB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4940425E133A7AC8008F54A1 /* SMAdActionTPB.m */; };
+		49448C91130F8CDF00949690 /* SMAdConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448C8F130F8CDF00949690 /* SMAdConfig.h */; };
+		49448C92130F8CDF00949690 /* SMAdConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448C90130F8CDF00949690 /* SMAdConfig.m */; };
+		49448D3C13106EE900949690 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D2913106EE900949690 /* JSON.h */; };
+		49448D3D13106EE900949690 /* NSObject+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D2A13106EE900949690 /* NSObject+JSON.h */; };
+		49448D3F13106EE900949690 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D2C13106EE900949690 /* SBJsonParser.h */; };
+		49448D4013106EE900949690 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D2D13106EE900949690 /* SBJsonParser.m */; };
+		49448D4113106EE900949690 /* SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D2E13106EE900949690 /* SBJsonStreamParser.h */; };
+		49448D4213106EE900949690 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D2F13106EE900949690 /* SBJsonStreamParser.m */; };
+		49448D4313106EE900949690 /* SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3013106EE900949690 /* SBJsonStreamParserAdapter.h */; };
+		49448D4413106EE900949690 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3113106EE900949690 /* SBJsonStreamParserAdapter.m */; };
+		49448D4513106EE900949690 /* SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3213106EE900949690 /* SBJsonStreamParserState.h */; };
+		49448D4613106EE900949690 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3313106EE900949690 /* SBJsonStreamParserState.m */; };
+		49448D4713106EE900949690 /* SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3413106EE900949690 /* SBJsonStreamWriter.h */; };
+		49448D4813106EE900949690 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3513106EE900949690 /* SBJsonStreamWriter.m */; };
+		49448D4913106EE900949690 /* SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3613106EE900949690 /* SBJsonStreamWriterState.h */; };
+		49448D4A13106EE900949690 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3713106EE900949690 /* SBJsonStreamWriterState.m */; };
+		49448D4B13106EE900949690 /* SBJsonTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3813106EE900949690 /* SBJsonTokeniser.h */; };
+		49448D4C13106EE900949690 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3913106EE900949690 /* SBJsonTokeniser.m */; };
+		49448D4D13106EE900949690 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448D3A13106EE900949690 /* SBJsonWriter.h */; };
+		49448D4E13106EE900949690 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448D3B13106EE900949690 /* SBJsonWriter.m */; };
+		49448DB31310854100949690 /* SMAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448DB21310854100949690 /* SMAdError.h */; };
+		49448DF913108D4E00949690 /* SMAdInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448DF713108D4E00949690 /* SMAdInspector.h */; };
+		49448DFA13108D4E00949690 /* SMAdInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 49448DF813108D4E00949690 /* SMAdInspector.m */; };
+		49448E081310909D00949690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49448E071310909D00949690 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		49448F071310B10000949690 /* SMAdRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49448F061310B10000949690 /* SMAdRenderer.h */; };
+		49481780131EC11C00873E70 /* SMAdActionVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4948177E131EC11C00873E70 /* SMAdActionVideo.h */; };
+		49481781131EC11C00873E70 /* SMAdActionVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948177F131EC11C00873E70 /* SMAdActionVideo.m */; };
+		4949862B131D7A70001F8607 /* SMAdBannerRendererV2.h in Headers */ = {isa = PBXBuildFile; fileRef = 49498629131D7A70001F8607 /* SMAdBannerRendererV2.h */; };
+		494AD2181325B0B8005B1A1C /* SMAdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 494AD2161325B0B8005B1A1C /* SMAdModel.h */; };
+		494AD2191325B0B8005B1A1C /* SMAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494AD2171325B0B8005B1A1C /* SMAdModel.m */; };
+		494BD0E5133BC0F1004E7C8B /* SMAdVideoBeaconData.h in Headers */ = {isa = PBXBuildFile; fileRef = 494BD0E3133BC0F1004E7C8B /* SMAdVideoBeaconData.h */; };
+		494BD0E6133BC0F1004E7C8B /* SMAdVideoBeaconData.m in Sources */ = {isa = PBXBuildFile; fileRef = 494BD0E4133BC0F1004E7C8B /* SMAdVideoBeaconData.m */; };
+		494CECAE13412C6400DFC7CD /* AdWhirlAdapterSayMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 494CECAC13412C6400DFC7CD /* AdWhirlAdapterSayMedia.h */; };
+		494DE362130EFFF7007BF359 /* SMAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DE360130EFFF7007BF359 /* SMAd.h */; };
+		494DE363130EFFF7007BF359 /* SMAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DE361130EFFF7007BF359 /* SMAd.m */; };
+		494DE3C0130F18EF007BF359 /* SMAdLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DE3BE130F18EF007BF359 /* SMAdLoader.h */; };
+		494DE3C1130F18EF007BF359 /* SMAdLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DE3BF130F18EF007BF359 /* SMAdLoader.m */; };
+		494DE3C3130F19D6007BF359 /* defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DE3C2130F19D6007BF359 /* defs.h */; };
+		494DE557130F3903007BF359 /* SMAdLoaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DE556130F3903007BF359 /* SMAdLoaderDelegate.h */; };
+		494DE58F130F4037007BF359 /* SMAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 494DE58E130F4037007BF359 /* SMAdDelegate.h */; };
+		49543852134279D10021753B /* SMAdVendorLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 49543850134279D10021753B /* SMAdVendorLoader.h */; };
+		49543853134279D10021753B /* SMAdVendorLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49543851134279D10021753B /* SMAdVendorLoader.m */; };
+		495D41E21315D1CF00E381D2 /* SMAdBeaconDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 495D41E11315D1CF00E381D2 /* SMAdBeaconDelegate.h */; };
+		495FDDF0134BDAB500B5AC37 /* SMAdBannerRendererV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 495FDDEF134BDAB500B5AC37 /* SMAdBannerRendererV2.m */; };
+		496249071326AE4500E0A9E0 /* SMAdInterstitialRendererV1.h in Headers */ = {isa = PBXBuildFile; fileRef = 496249031326AE4500E0A9E0 /* SMAdInterstitialRendererV1.h */; };
+		496249081326AE4500E0A9E0 /* SMAdInterstitialRendererV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 496249041326AE4500E0A9E0 /* SMAdInterstitialRendererV1.m */; };
+		496249091326AE4500E0A9E0 /* SMAdInterstitialRendererV2.h in Headers */ = {isa = PBXBuildFile; fileRef = 496249051326AE4500E0A9E0 /* SMAdInterstitialRendererV2.h */; };
+		4962490A1326AE4500E0A9E0 /* SMAdInterstitialRendererV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 496249061326AE4500E0A9E0 /* SMAdInterstitialRendererV2.m */; };
+		496249F7132707E200E0A9E0 /* SMAdBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 496249F5132707E200E0A9E0 /* SMAdBannerView.h */; };
+		496249F8132707E200E0A9E0 /* SMAdBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 496249F6132707E200E0A9E0 /* SMAdBannerView.m */; };
+		4971E5B81329632D00DB2AE1 /* SMAdActionPrompt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4971E5B61329632D00DB2AE1 /* SMAdActionPrompt.h */; };
+		4971E5B91329632D00DB2AE1 /* SMAdActionPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971E5B71329632D00DB2AE1 /* SMAdActionPrompt.m */; };
+		4988348D131C3E2800B323A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4988348C131C3E2800B323A7 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		498A7A2F1316E4B500D90D37 /* SMAdBannerRendererV1.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7A2D1316E4B500D90D37 /* SMAdBannerRendererV1.h */; };
+		498A7A301316E4B500D90D37 /* SMAdBannerRendererV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7A2E1316E4B500D90D37 /* SMAdBannerRendererV1.m */; };
+		498A7A4A1316E5C900D90D37 /* SMAdTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7A481316E5C900D90D37 /* SMAdTouchView.h */; };
+		498A7A4B1316E5C900D90D37 /* SMAdTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7A491316E5C900D90D37 /* SMAdTouchView.m */; };
+		498A7A531316E61200D90D37 /* SMAdTouchViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7A521316E61200D90D37 /* SMAdTouchViewDelegate.h */; };
+		498A7CAC1316FC8500D90D37 /* VEActionVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7CAA1316FC8500D90D37 /* VEActionVideo.h */; };
+		498A7CAD1316FC8500D90D37 /* VEActionVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7CAB1316FC8500D90D37 /* VEActionVideo.m */; };
+		498A7DE41317131100D90D37 /* VEActionSaveContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7DE21317131100D90D37 /* VEActionSaveContact.h */; };
+		498A7DE51317131100D90D37 /* VEActionSaveContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7DE31317131100D90D37 /* VEActionSaveContact.m */; };
+		498A7DF1131714C000D90D37 /* VEActionAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7DEF131714C000D90D37 /* VEActionAlert.h */; };
+		498A7DF2131714C000D90D37 /* VEActionAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7DF0131714C000D90D37 /* VEActionAlert.m */; };
+		498A7DFB131715C100D90D37 /* VEActionSaveImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7DF9131715C100D90D37 /* VEActionSaveImage.h */; };
+		498A7DFC131715C100D90D37 /* VEActionSaveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7DFA131715C100D90D37 /* VEActionSaveImage.m */; };
+		498A7E11131716B800D90D37 /* VEActionEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7E0F131716B800D90D37 /* VEActionEmail.h */; };
+		498A7E12131716B800D90D37 /* VEActionEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7E10131716B800D90D37 /* VEActionEmail.m */; };
+		498A7E451317195000D90D37 /* VEActionSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7E431317195000D90D37 /* VEActionSMS.h */; };
+		498A7E461317195000D90D37 /* VEActionSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7E441317195000D90D37 /* VEActionSMS.m */; };
+		498A7E6513171A8E00D90D37 /* VEActionURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7E6313171A8E00D90D37 /* VEActionURL.h */; };
+		498A7E6613171A8E00D90D37 /* VEActionURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7E6413171A8E00D90D37 /* VEActionURL.m */; };
+		498A7E7E13171B2D00D90D37 /* SMAdActionClose.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7E7C13171B2D00D90D37 /* SMAdActionClose.h */; };
+		498A7E7F13171B2D00D90D37 /* SMAdActionClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7E7D13171B2D00D90D37 /* SMAdActionClose.m */; };
+		498A7EB013171D9700D90D37 /* VEActionClose.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7EAE13171D9700D90D37 /* VEActionClose.h */; };
+		498A7EB113171D9700D90D37 /* VEActionClose.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7EAF13171D9700D90D37 /* VEActionClose.m */; };
+		498A7EFE1317208C00D90D37 /* SMAdUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 498A7EFC1317208C00D90D37 /* SMAdUtility.h */; };
+		498A7EFF1317208C00D90D37 /* SMAdUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A7EFD1317208C00D90D37 /* SMAdUtility.m */; };
+		498AD2AD137D9E8400C099DF /* targeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 498AD2AC137D9E8400C099DF /* targeting.h */; };
+		499197911310BB4400E117E3 /* SMAdBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991978F1310BB4400E117E3 /* SMAdBeacon.h */; };
+		499197921310BB4400E117E3 /* SMAdBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 499197901310BB4400E117E3 /* SMAdBeacon.m */; };
+		499197DE1310C74900E117E3 /* SMActionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 499197DC1310C74900E117E3 /* SMActionHandler.h */; };
+		499197DF1310C74900E117E3 /* SMActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 499197DD1310C74900E117E3 /* SMActionHandler.m */; };
+		49919CB51311CDBE00E117E3 /* SMAdAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 49919CB41311CDBE00E117E3 /* SMAdAction.h */; };
+		49919D1C1311D27F00E117E3 /* SMAdActionLaunchURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 49919D1A1311D27F00E117E3 /* SMAdActionLaunchURL.h */; };
+		49919D1D1311D27F00E117E3 /* SMAdActionLaunchURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 49919D1B1311D27F00E117E3 /* SMAdActionLaunchURL.m */; };
+		4991A0221312068200E117E3 /* SMAdActionEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A0201312068200E117E3 /* SMAdActionEmail.h */; };
+		4991A0231312068200E117E3 /* SMAdActionEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A0211312068200E117E3 /* SMAdActionEmail.m */; };
+		4991A02D1312074900E117E3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4991A02C1312074900E117E3 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4991A0BB1312400200E117E3 /* SMAdActionPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A0B91312400200E117E3 /* SMAdActionPrintf.h */; };
+		4991A0BC1312400200E117E3 /* SMAdActionPrintf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A0BA1312400200E117E3 /* SMAdActionPrintf.m */; };
+		4991A0C11312421F00E117E3 /* SMAdActionBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A0BF1312421F00E117E3 /* SMAdActionBase.h */; };
+		4991A0C21312421F00E117E3 /* SMAdActionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A0C01312421F00E117E3 /* SMAdActionBase.m */; };
+		4991A1841312471200E117E3 /* SMAdActionMethodCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A1821312471200E117E3 /* SMAdActionMethodCall.h */; };
+		4991A1851312471200E117E3 /* SMAdActionMethodCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A1831312471200E117E3 /* SMAdActionMethodCall.m */; };
+		4991A20C13124C2400E117E3 /* SMAdActionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A20B13124C2400E117E3 /* SMAdActionDelegate.h */; };
+		4991A24C13124DDB00E117E3 /* SMAdActionSMS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A24A13124DDB00E117E3 /* SMAdActionSMS.h */; };
+		4991A24D13124DDB00E117E3 /* SMAdActionSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A24B13124DDB00E117E3 /* SMAdActionSMS.m */; };
+		4991A2E6131253E600E117E3 /* SMAdActionPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A2E4131253E600E117E3 /* SMAdActionPhone.h */; };
+		4991A2E7131253E600E117E3 /* SMAdActionPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A2E5131253E600E117E3 /* SMAdActionPhone.m */; };
+		4991A2F01312547000E117E3 /* SMAdActionSaveContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A2EE1312547000E117E3 /* SMAdActionSaveContact.h */; };
+		4991A2F11312547000E117E3 /* SMAdActionSaveContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A2EF1312547000E117E3 /* SMAdActionSaveContact.m */; };
+		4991A2FB131254CA00E117E3 /* SMAdActionSaveImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A2F9131254CA00E117E3 /* SMAdActionSaveImage.h */; };
+		4991A2FC131254CA00E117E3 /* SMAdActionSaveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A2FA131254CA00E117E3 /* SMAdActionSaveImage.m */; };
+		4991A3801313070700E117E3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4991A37F1313070700E117E3 /* AddressBook.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4991A48B1313111200E117E3 /* SMAdInspectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A48A1313111200E117E3 /* SMAdInspectorDelegate.h */; };
+		4991A664131322FA00E117E3 /* SMAdRendererBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991A662131322FA00E117E3 /* SMAdRendererBase.h */; };
+		4991A665131322FA00E117E3 /* SMAdRendererBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991A663131322FA00E117E3 /* SMAdRendererBase.m */; };
+		4991AD861313955200E117E3 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991AD841313955200E117E3 /* NSData+Base64.h */; };
+		4991AE40131439FC00E117E3 /* SMAdRendererHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991AE3E131439FC00E117E3 /* SMAdRendererHelper.h */; };
+		4991AE41131439FC00E117E3 /* SMAdRendererHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991AE3F131439FC00E117E3 /* SMAdRendererHelper.m */; };
+		4991AECE131443D400E117E3 /* SMAdActionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991AECD131443D400E117E3 /* SMAdActionDelegate.h */; };
+		4991B1271314708400E117E3 /* UIView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991B1251314708400E117E3 /* UIView+Additions.h */; };
+		4991B1281314708400E117E3 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991B1261314708400E117E3 /* UIView+Additions.m */; };
+		4991B3671314926500E117E3 /* SMAdAuto.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991B3651314926500E117E3 /* SMAdAuto.h */; };
+		4991B3681314926500E117E3 /* SMAdAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4991B3661314926500E117E3 /* SMAdAuto.m */; };
+		4991B374131493A000E117E3 /* SMAdAutoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4991B373131493A000E117E3 /* SMAdAutoDelegate.h */; };
+		49AEF6A21332A6320071E176 /* SMAdRendererAdMeld.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AEF6A01332A6320071E176 /* SMAdRendererAdMeld.h */; };
+		49AEF6A31332A6320071E176 /* SMAdRendererAdMeld.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AEF6A11332A6320071E176 /* SMAdRendererAdMeld.m */; };
+		49AF9BC0135623B200F35195 /* SMAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AF9BBD135623B200F35195 /* SMAdViewController.h */; };
+		49AF9BC1135623B200F35195 /* SMAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9BBE135623B200F35195 /* SMAdViewController.m */; };
+		49E45CCC131AE480005B21DB /* SMAdHouseRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E45CCA131AE480005B21DB /* SMAdHouseRenderer.h */; };
+		49E45CCD131AE480005B21DB /* SMAdHouseRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E45CCB131AE480005B21DB /* SMAdHouseRenderer.m */; };
+		AA747D9F0F9514B9006C5449 /* SMIntegrationKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SMIntegrationKit_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49321B44133E9325003216CB /* SMAdBannerRendererV2_2WebViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerRendererV2_2WebViews.h; path = source/SMAdBannerRendererV2_2WebViews.h; sourceTree = "<group>"; };
+		49321B45133E9325003216CB /* SMAdBannerRendererV2_2WebViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBannerRendererV2_2WebViews.m; path = source/SMAdBannerRendererV2_2WebViews.m; sourceTree = "<group>"; };
+		493448591321EB6400718E20 /* SMAdTPB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTPB.h; path = source/SMAdTPB.h; sourceTree = "<group>"; };
+		4934485A1321EB6400718E20 /* SMAdTPB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdTPB.m; path = source/SMAdTPB.m; sourceTree = "<group>"; };
+		493448641321ECC100718E20 /* SMAdTPBDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTPBDelegate.h; path = source/SMAdTPBDelegate.h; sourceTree = "<group>"; };
+		493451A813246EDC00718E20 /* SMAdActionShowTakeover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionShowTakeover.h; path = source/SMAdActionShowTakeover.h; sourceTree = "<group>"; };
+		493451A913246EDC00718E20 /* SMAdActionShowTakeover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionShowTakeover.m; path = source/SMAdActionShowTakeover.m; sourceTree = "<group>"; };
+		4934B4401329BB9300B4E2F8 /* SMAdActionAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionAlert.h; path = source/SMAdActionAlert.h; sourceTree = "<group>"; };
+		4934B4411329BB9300B4E2F8 /* SMAdActionAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionAlert.m; path = source/SMAdActionAlert.m; sourceTree = "<group>"; };
+		493B352A13346C3A00A9DCE1 /* SMAdIPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdIPrivate.h; path = source/SMAdIPrivate.h; sourceTree = "<group>"; };
+		493B352B13346C3A00A9DCE1 /* SMAdIPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdIPrivate.m; path = source/SMAdIPrivate.m; sourceTree = "<group>"; };
+		493B359F13348F1500A9DCE1 /* SMAdConfigPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdConfigPrivate.h; path = source/SMAdConfigPrivate.h; sourceTree = "<group>"; };
+		493B35A013348F1500A9DCE1 /* SMAdConfigPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdConfigPrivate.m; path = source/SMAdConfigPrivate.m; sourceTree = "<group>"; };
+		493B39F61335419500A9DCE1 /* SMAdBannerViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerViewInternal.h; path = source/SMAdBannerViewInternal.h; sourceTree = "<group>"; };
+		493B39F81335424B00A9DCE1 /* SMAdBannerViewPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerViewPrivate.h; path = source/SMAdBannerViewPrivate.h; sourceTree = "<group>"; };
+		493B39F91335424B00A9DCE1 /* SMAdBannerViewPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBannerViewPrivate.m; path = source/SMAdBannerViewPrivate.m; sourceTree = "<group>"; };
+		493B3B931336731900A9DCE1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = source/reachability/Reachability.h; sourceTree = "<group>"; };
+		493B3B941336731900A9DCE1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = source/reachability/Reachability.m; sourceTree = "<group>"; };
+		493B3B971336732600A9DCE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4940425D133A7AC8008F54A1 /* SMAdActionTPB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionTPB.h; path = source/SMAdActionTPB.h; sourceTree = "<group>"; };
+		4940425E133A7AC8008F54A1 /* SMAdActionTPB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionTPB.m; path = source/SMAdActionTPB.m; sourceTree = "<group>"; };
+		4940637013451C01005C2CC2 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		4940637113451C01005C2CC2 /* CHANGELOG_PUB */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG_PUB; sourceTree = "<group>"; };
+		49448C8F130F8CDF00949690 /* SMAdConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdConfig.h; path = source/SMAdConfig.h; sourceTree = "<group>"; };
+		49448C90130F8CDF00949690 /* SMAdConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdConfig.m; path = source/SMAdConfig.m; sourceTree = "<group>"; };
+		49448D2913106EE900949690 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = source/json/JSON.h; sourceTree = "<group>"; };
+		49448D2A13106EE900949690 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JSON.h"; path = "source/json/NSObject+JSON.h"; sourceTree = "<group>"; };
+		49448D2B13106EE900949690 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JSON.m"; path = "source/json/NSObject+JSON.m"; sourceTree = "<group>"; };
+		49448D2C13106EE900949690 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = source/json/SBJsonParser.h; sourceTree = "<group>"; };
+		49448D2D13106EE900949690 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = source/json/SBJsonParser.m; sourceTree = "<group>"; };
+		49448D2E13106EE900949690 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = source/json/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		49448D2F13106EE900949690 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = source/json/SBJsonStreamParser.m; sourceTree = "<group>"; };
+		49448D3013106EE900949690 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = source/json/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		49448D3113106EE900949690 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = source/json/SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		49448D3213106EE900949690 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = source/json/SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		49448D3313106EE900949690 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = source/json/SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		49448D3413106EE900949690 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = source/json/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		49448D3513106EE900949690 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = source/json/SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		49448D3613106EE900949690 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = source/json/SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		49448D3713106EE900949690 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = source/json/SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		49448D3813106EE900949690 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = source/json/SBJsonTokeniser.h; sourceTree = "<group>"; };
+		49448D3913106EE900949690 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = source/json/SBJsonTokeniser.m; sourceTree = "<group>"; };
+		49448D3A13106EE900949690 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = source/json/SBJsonWriter.h; sourceTree = "<group>"; };
+		49448D3B13106EE900949690 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = source/json/SBJsonWriter.m; sourceTree = "<group>"; };
+		49448DB21310854100949690 /* SMAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdError.h; path = source/SMAdError.h; sourceTree = "<group>"; };
+		49448DF713108D4E00949690 /* SMAdInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdInspector.h; path = source/SMAdInspector.h; sourceTree = "<group>"; };
+		49448DF813108D4E00949690 /* SMAdInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdInspector.m; path = source/SMAdInspector.m; sourceTree = "<group>"; };
+		49448E071310909D00949690 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49448F061310B10000949690 /* SMAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdRenderer.h; path = source/SMAdRenderer.h; sourceTree = "<group>"; };
+		4948177E131EC11C00873E70 /* SMAdActionVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionVideo.h; path = source/SMAdActionVideo.h; sourceTree = "<group>"; };
+		4948177F131EC11C00873E70 /* SMAdActionVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionVideo.m; path = source/SMAdActionVideo.m; sourceTree = "<group>"; };
+		49498629131D7A70001F8607 /* SMAdBannerRendererV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerRendererV2.h; path = source/SMAdBannerRendererV2.h; sourceTree = "<group>"; };
+		494AD2161325B0B8005B1A1C /* SMAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdModel.h; path = source/SMAdModel.h; sourceTree = "<group>"; };
+		494AD2171325B0B8005B1A1C /* SMAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdModel.m; path = source/SMAdModel.m; sourceTree = "<group>"; };
+		494BD0E3133BC0F1004E7C8B /* SMAdVideoBeaconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdVideoBeaconData.h; path = source/SMAdVideoBeaconData.h; sourceTree = "<group>"; };
+		494BD0E4133BC0F1004E7C8B /* SMAdVideoBeaconData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdVideoBeaconData.m; path = source/SMAdVideoBeaconData.m; sourceTree = "<group>"; };
+		494CECAC13412C6400DFC7CD /* AdWhirlAdapterSayMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdWhirlAdapterSayMedia.h; path = source/adwhirl/AdWhirlAdapterSayMedia.h; sourceTree = "<group>"; };
+		494CECAD13412C6400DFC7CD /* AdWhirlAdapterSayMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdWhirlAdapterSayMedia.m; path = source/adwhirl/AdWhirlAdapterSayMedia.m; sourceTree = "<group>"; };
+		494DE360130EFFF7007BF359 /* SMAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAd.h; path = source/SMAd.h; sourceTree = "<group>"; };
+		494DE361130EFFF7007BF359 /* SMAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAd.m; path = source/SMAd.m; sourceTree = "<group>"; };
+		494DE3BE130F18EF007BF359 /* SMAdLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdLoader.h; path = source/SMAdLoader.h; sourceTree = "<group>"; };
+		494DE3BF130F18EF007BF359 /* SMAdLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdLoader.m; path = source/SMAdLoader.m; sourceTree = "<group>"; };
+		494DE3C2130F19D6007BF359 /* defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = defs.h; path = source/defs.h; sourceTree = "<group>"; };
+		494DE556130F3903007BF359 /* SMAdLoaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdLoaderDelegate.h; path = source/SMAdLoaderDelegate.h; sourceTree = "<group>"; };
+		494DE58E130F4037007BF359 /* SMAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdDelegate.h; path = source/SMAdDelegate.h; sourceTree = "<group>"; };
+		49543850134279D10021753B /* SMAdVendorLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdVendorLoader.h; path = source/SMAdVendorLoader.h; sourceTree = "<group>"; };
+		49543851134279D10021753B /* SMAdVendorLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdVendorLoader.m; path = source/SMAdVendorLoader.m; sourceTree = "<group>"; };
+		495D41E11315D1CF00E381D2 /* SMAdBeaconDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBeaconDelegate.h; path = source/SMAdBeaconDelegate.h; sourceTree = "<group>"; };
+		495FDDEF134BDAB500B5AC37 /* SMAdBannerRendererV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBannerRendererV2.m; path = source/SMAdBannerRendererV2.m; sourceTree = "<group>"; };
+		496249031326AE4500E0A9E0 /* SMAdInterstitialRendererV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdInterstitialRendererV1.h; path = source/SMAdInterstitialRendererV1.h; sourceTree = "<group>"; };
+		496249041326AE4500E0A9E0 /* SMAdInterstitialRendererV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdInterstitialRendererV1.m; path = source/SMAdInterstitialRendererV1.m; sourceTree = "<group>"; };
+		496249051326AE4500E0A9E0 /* SMAdInterstitialRendererV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdInterstitialRendererV2.h; path = source/SMAdInterstitialRendererV2.h; sourceTree = "<group>"; };
+		496249061326AE4500E0A9E0 /* SMAdInterstitialRendererV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdInterstitialRendererV2.m; path = source/SMAdInterstitialRendererV2.m; sourceTree = "<group>"; };
+		496249F5132707E200E0A9E0 /* SMAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerView.h; path = source/SMAdBannerView.h; sourceTree = "<group>"; };
+		496249F6132707E200E0A9E0 /* SMAdBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBannerView.m; path = source/SMAdBannerView.m; sourceTree = "<group>"; };
+		4971E5B61329632D00DB2AE1 /* SMAdActionPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionPrompt.h; path = source/SMAdActionPrompt.h; sourceTree = "<group>"; };
+		4971E5B71329632D00DB2AE1 /* SMAdActionPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionPrompt.m; path = source/SMAdActionPrompt.m; sourceTree = "<group>"; };
+		4988348C131C3E2800B323A7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		498A7A2D1316E4B500D90D37 /* SMAdBannerRendererV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerRendererV1.h; path = source/SMAdBannerRendererV1.h; sourceTree = "<group>"; };
+		498A7A2E1316E4B500D90D37 /* SMAdBannerRendererV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBannerRendererV1.m; path = source/SMAdBannerRendererV1.m; sourceTree = "<group>"; };
+		498A7A481316E5C900D90D37 /* SMAdTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTouchView.h; path = source/SMAdTouchView.h; sourceTree = "<group>"; };
+		498A7A491316E5C900D90D37 /* SMAdTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdTouchView.m; path = source/SMAdTouchView.m; sourceTree = "<group>"; };
+		498A7A521316E61200D90D37 /* SMAdTouchViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTouchViewDelegate.h; path = source/SMAdTouchViewDelegate.h; sourceTree = "<group>"; };
+		498A7CAA1316FC8500D90D37 /* VEActionVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionVideo.h; path = source/VEActionVideo.h; sourceTree = "<group>"; };
+		498A7CAB1316FC8500D90D37 /* VEActionVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionVideo.m; path = source/VEActionVideo.m; sourceTree = "<group>"; };
+		498A7DE21317131100D90D37 /* VEActionSaveContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionSaveContact.h; path = source/VEActionSaveContact.h; sourceTree = "<group>"; };
+		498A7DE31317131100D90D37 /* VEActionSaveContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionSaveContact.m; path = source/VEActionSaveContact.m; sourceTree = "<group>"; };
+		498A7DEF131714C000D90D37 /* VEActionAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionAlert.h; path = source/VEActionAlert.h; sourceTree = "<group>"; };
+		498A7DF0131714C000D90D37 /* VEActionAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionAlert.m; path = source/VEActionAlert.m; sourceTree = "<group>"; };
+		498A7DF9131715C100D90D37 /* VEActionSaveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionSaveImage.h; path = source/VEActionSaveImage.h; sourceTree = "<group>"; };
+		498A7DFA131715C100D90D37 /* VEActionSaveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionSaveImage.m; path = source/VEActionSaveImage.m; sourceTree = "<group>"; };
+		498A7E0F131716B800D90D37 /* VEActionEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionEmail.h; path = source/VEActionEmail.h; sourceTree = "<group>"; };
+		498A7E10131716B800D90D37 /* VEActionEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionEmail.m; path = source/VEActionEmail.m; sourceTree = "<group>"; };
+		498A7E431317195000D90D37 /* VEActionSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionSMS.h; path = source/VEActionSMS.h; sourceTree = "<group>"; };
+		498A7E441317195000D90D37 /* VEActionSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionSMS.m; path = source/VEActionSMS.m; sourceTree = "<group>"; };
+		498A7E6313171A8E00D90D37 /* VEActionURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionURL.h; path = source/VEActionURL.h; sourceTree = "<group>"; };
+		498A7E6413171A8E00D90D37 /* VEActionURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionURL.m; path = source/VEActionURL.m; sourceTree = "<group>"; };
+		498A7E7C13171B2D00D90D37 /* SMAdActionClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionClose.h; path = source/SMAdActionClose.h; sourceTree = "<group>"; };
+		498A7E7D13171B2D00D90D37 /* SMAdActionClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionClose.m; path = source/SMAdActionClose.m; sourceTree = "<group>"; };
+		498A7EAE13171D9700D90D37 /* VEActionClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VEActionClose.h; path = source/VEActionClose.h; sourceTree = "<group>"; };
+		498A7EAF13171D9700D90D37 /* VEActionClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VEActionClose.m; path = source/VEActionClose.m; sourceTree = "<group>"; };
+		498A7EFC1317208C00D90D37 /* SMAdUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdUtility.h; path = source/SMAdUtility.h; sourceTree = "<group>"; };
+		498A7EFD1317208C00D90D37 /* SMAdUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdUtility.m; path = source/SMAdUtility.m; sourceTree = "<group>"; };
+		498AD2AC137D9E8400C099DF /* targeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = targeting.h; path = source/targeting.h; sourceTree = "<group>"; };
+		4991978F1310BB4400E117E3 /* SMAdBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBeacon.h; path = source/SMAdBeacon.h; sourceTree = "<group>"; };
+		499197901310BB4400E117E3 /* SMAdBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdBeacon.m; path = source/SMAdBeacon.m; sourceTree = "<group>"; };
+		499197DC1310C74900E117E3 /* SMActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMActionHandler.h; path = source/SMActionHandler.h; sourceTree = "<group>"; };
+		499197DD1310C74900E117E3 /* SMActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMActionHandler.m; path = source/SMActionHandler.m; sourceTree = "<group>"; };
+		49919CB41311CDBE00E117E3 /* SMAdAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdAction.h; path = source/SMAdAction.h; sourceTree = "<group>"; };
+		49919D1A1311D27F00E117E3 /* SMAdActionLaunchURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionLaunchURL.h; path = source/SMAdActionLaunchURL.h; sourceTree = "<group>"; };
+		49919D1B1311D27F00E117E3 /* SMAdActionLaunchURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionLaunchURL.m; path = source/SMAdActionLaunchURL.m; sourceTree = "<group>"; };
+		4991A0201312068200E117E3 /* SMAdActionEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionEmail.h; path = source/SMAdActionEmail.h; sourceTree = "<group>"; };
+		4991A0211312068200E117E3 /* SMAdActionEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionEmail.m; path = source/SMAdActionEmail.m; sourceTree = "<group>"; };
+		4991A02C1312074900E117E3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4991A0B91312400200E117E3 /* SMAdActionPrintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionPrintf.h; path = source/SMAdActionPrintf.h; sourceTree = "<group>"; };
+		4991A0BA1312400200E117E3 /* SMAdActionPrintf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionPrintf.m; path = source/SMAdActionPrintf.m; sourceTree = "<group>"; };
+		4991A0BF1312421F00E117E3 /* SMAdActionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionBase.h; path = source/SMAdActionBase.h; sourceTree = "<group>"; };
+		4991A0C01312421F00E117E3 /* SMAdActionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionBase.m; path = source/SMAdActionBase.m; sourceTree = "<group>"; };
+		4991A1821312471200E117E3 /* SMAdActionMethodCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionMethodCall.h; path = source/SMAdActionMethodCall.h; sourceTree = "<group>"; };
+		4991A1831312471200E117E3 /* SMAdActionMethodCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionMethodCall.m; path = source/SMAdActionMethodCall.m; sourceTree = "<group>"; };
+		4991A20B13124C2400E117E3 /* SMAdActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionDelegate.h; path = source/SMAdActionDelegate.h; sourceTree = "<group>"; };
+		4991A24A13124DDB00E117E3 /* SMAdActionSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionSMS.h; path = source/SMAdActionSMS.h; sourceTree = "<group>"; };
+		4991A24B13124DDB00E117E3 /* SMAdActionSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionSMS.m; path = source/SMAdActionSMS.m; sourceTree = "<group>"; };
+		4991A2B41312521700E117E3 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TODO; path = ../../TODO; sourceTree = "<group>"; };
+		4991A2E4131253E600E117E3 /* SMAdActionPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionPhone.h; path = source/SMAdActionPhone.h; sourceTree = "<group>"; };
+		4991A2E5131253E600E117E3 /* SMAdActionPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionPhone.m; path = source/SMAdActionPhone.m; sourceTree = "<group>"; };
+		4991A2EE1312547000E117E3 /* SMAdActionSaveContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionSaveContact.h; path = source/SMAdActionSaveContact.h; sourceTree = "<group>"; };
+		4991A2EF1312547000E117E3 /* SMAdActionSaveContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionSaveContact.m; path = source/SMAdActionSaveContact.m; sourceTree = "<group>"; };
+		4991A2F9131254CA00E117E3 /* SMAdActionSaveImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionSaveImage.h; path = source/SMAdActionSaveImage.h; sourceTree = "<group>"; };
+		4991A2FA131254CA00E117E3 /* SMAdActionSaveImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdActionSaveImage.m; path = source/SMAdActionSaveImage.m; sourceTree = "<group>"; };
+		4991A37F1313070700E117E3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4991A48A1313111200E117E3 /* SMAdInspectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdInspectorDelegate.h; path = source/SMAdInspectorDelegate.h; sourceTree = "<group>"; };
+		4991A662131322FA00E117E3 /* SMAdRendererBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdRendererBase.h; path = source/SMAdRendererBase.h; sourceTree = "<group>"; };
+		4991A663131322FA00E117E3 /* SMAdRendererBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdRendererBase.m; path = source/SMAdRendererBase.m; sourceTree = "<group>"; };
+		4991AD841313955200E117E3 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "source/NSData+Base64.h"; sourceTree = "<group>"; };
+		4991AD851313955200E117E3 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "source/NSData+Base64.m"; sourceTree = "<group>"; };
+		4991AE3E131439FC00E117E3 /* SMAdRendererHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdRendererHelper.h; path = source/SMAdRendererHelper.h; sourceTree = "<group>"; };
+		4991AE3F131439FC00E117E3 /* SMAdRendererHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdRendererHelper.m; path = source/SMAdRendererHelper.m; sourceTree = "<group>"; };
+		4991AECD131443D400E117E3 /* SMAdActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdActionDelegate.h; path = source/SMAdActionDelegate.h; sourceTree = "<group>"; };
+		4991B1251314708400E117E3 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "source/UIView+Additions.h"; sourceTree = "<group>"; };
+		4991B1261314708400E117E3 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "source/UIView+Additions.m"; sourceTree = "<group>"; };
+		4991B3651314926500E117E3 /* SMAdAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdAuto.h; path = source/SMAdAuto.h; sourceTree = "<group>"; };
+		4991B3661314926500E117E3 /* SMAdAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdAuto.m; path = source/SMAdAuto.m; sourceTree = "<group>"; };
+		4991B373131493A000E117E3 /* SMAdAutoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdAutoDelegate.h; path = source/SMAdAutoDelegate.h; sourceTree = "<group>"; };
+		49AEF6A01332A6320071E176 /* SMAdRendererAdMeld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdRendererAdMeld.h; path = source/SMAdRendererAdMeld.h; sourceTree = "<group>"; };
+		49AEF6A11332A6320071E176 /* SMAdRendererAdMeld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdRendererAdMeld.m; path = source/SMAdRendererAdMeld.m; sourceTree = "<group>"; };
+		49AF9BBD135623B200F35195 /* SMAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdViewController.h; path = source/SMAdViewController.h; sourceTree = "<group>"; };
+		49AF9BBE135623B200F35195 /* SMAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdViewController.m; path = source/SMAdViewController.m; sourceTree = "<group>"; };
+		49E45CCA131AE480005B21DB /* SMAdHouseRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdHouseRenderer.h; path = source/SMAdHouseRenderer.h; sourceTree = "<group>"; };
+		49E45CCB131AE480005B21DB /* SMAdHouseRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdHouseRenderer.m; path = source/SMAdHouseRenderer.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* SMIntegrationKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMIntegrationKit_Prefix.pch; path = source/SMIntegrationKit_Prefix.pch; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libSMIntegrationKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSMIntegrationKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4991A3801313070700E117E3 /* AddressBook.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4988348D131C3E2800B323A7 /* MediaPlayer.framework in Frameworks */,
+				4991A02D1312074900E117E3 /* MessageUI.framework in Frameworks */,
+				493B3B981336732600A9DCE1 /* SystemConfiguration.framework in Frameworks */,
+				49448E081310909D00949690 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libSMIntegrationKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* SMIntegrationKit */ = {
+			isa = PBXGroup;
+			children = (
+				494DE35F130EFFE0007BF359 /* Headers */,
+				08FB77AEFE84172EC02AAC07 /* Source */,
+				49543702134249BC0021753B /* Deprecated */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				4940637013451C01005C2CC2 /* CHANGELOG */,
+				4940637113451C01005C2CC2 /* CHANGELOG_PUB */,
+				4991A2B41312521700E117E3 /* TODO */,
+			);
+			name = SMIntegrationKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4991A37F1313070700E117E3 /* AddressBook.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				49448D1C13106E8000949690 /* JSON */,
+				4988348C131C3E2800B323A7 /* MediaPlayer.framework */,
+				4991A02C1312074900E117E3 /* MessageUI.framework */,
+				493B3B971336732600A9DCE1 /* SystemConfiguration.framework */,
+				49448E071310909D00949690 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				49919CBE1311CE7600E117E3 /* Actions */,
+				4991AD821313954100E117E3 /* Categories */,
+				493B3B911336730A00A9DCE1 /* External */,
+				493B3A121335431300A9DCE1 /* Private */,
+				499198831311A34500E117E3 /* Renderers */,
+				494CEBDC134125A400DFC7CD /* Vendor */,
+				498A7A411316E5A600D90D37 /* Views */,
+				494DE361130EFFF7007BF359 /* SMAd.m */,
+				4991B3661314926500E117E3 /* SMAdAuto.m */,
+				496249F6132707E200E0A9E0 /* SMAdBannerView.m */,
+				499197901310BB4400E117E3 /* SMAdBeacon.m */,
+				49448C90130F8CDF00949690 /* SMAdConfig.m */,
+				49448DF813108D4E00949690 /* SMAdInspector.m */,
+				494DE3BF130F18EF007BF359 /* SMAdLoader.m */,
+				494AD2171325B0B8005B1A1C /* SMAdModel.m */,
+				498A7EFD1317208C00D90D37 /* SMAdUtility.m */,
+				494BD0E4133BC0F1004E7C8B /* SMAdVideoBeaconData.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		493B3A121335431300A9DCE1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				493B39F91335424B00A9DCE1 /* SMAdBannerViewPrivate.m */,
+				493B35A013348F1500A9DCE1 /* SMAdConfigPrivate.m */,
+				493B352B13346C3A00A9DCE1 /* SMAdIPrivate.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		493B3B8F133672B100A9DCE1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				493B3B941336731900A9DCE1 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		493B3B911336730A00A9DCE1 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				493B3B8F133672B100A9DCE1 /* Reachability */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		49448D1C13106E8000949690 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				49448D2913106EE900949690 /* JSON.h */,
+				49448D2A13106EE900949690 /* NSObject+JSON.h */,
+				49448D2B13106EE900949690 /* NSObject+JSON.m */,
+				49448D2C13106EE900949690 /* SBJsonParser.h */,
+				49448D2D13106EE900949690 /* SBJsonParser.m */,
+				49448D2E13106EE900949690 /* SBJsonStreamParser.h */,
+				49448D2F13106EE900949690 /* SBJsonStreamParser.m */,
+				49448D3013106EE900949690 /* SBJsonStreamParserAdapter.h */,
+				49448D3113106EE900949690 /* SBJsonStreamParserAdapter.m */,
+				49448D3213106EE900949690 /* SBJsonStreamParserState.h */,
+				49448D3313106EE900949690 /* SBJsonStreamParserState.m */,
+				49448D3413106EE900949690 /* SBJsonStreamWriter.h */,
+				49448D3513106EE900949690 /* SBJsonStreamWriter.m */,
+				49448D3613106EE900949690 /* SBJsonStreamWriterState.h */,
+				49448D3713106EE900949690 /* SBJsonStreamWriterState.m */,
+				49448D3813106EE900949690 /* SBJsonTokeniser.h */,
+				49448D3913106EE900949690 /* SBJsonTokeniser.m */,
+				49448D3A13106EE900949690 /* SBJsonWriter.h */,
+				49448D3B13106EE900949690 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		494CEBDC134125A400DFC7CD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				494CECAA13412C5B00DFC7CD /* AdWhirl */,
+				49543851134279D10021753B /* SMAdVendorLoader.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		494CECAA13412C5B00DFC7CD /* AdWhirl */ = {
+			isa = PBXGroup;
+			children = (
+				494CECAD13412C6400DFC7CD /* AdWhirlAdapterSayMedia.m */,
+			);
+			name = AdWhirl;
+			sourceTree = "<group>";
+		};
+		494DE35F130EFFE0007BF359 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				494CECAC13412C6400DFC7CD /* AdWhirlAdapterSayMedia.h */,
+				494DE3C2130F19D6007BF359 /* defs.h */,
+				4991AD841313955200E117E3 /* NSData+Base64.h */,
+				493B3B931336731900A9DCE1 /* Reachability.h */,
+				499197DC1310C74900E117E3 /* SMActionHandler.h */,
+				494DE360130EFFF7007BF359 /* SMAd.h */,
+				49919CB41311CDBE00E117E3 /* SMAdAction.h */,
+				4934B4401329BB9300B4E2F8 /* SMAdActionAlert.h */,
+				4991A0BF1312421F00E117E3 /* SMAdActionBase.h */,
+				498A7E7C13171B2D00D90D37 /* SMAdActionClose.h */,
+				4991A20B13124C2400E117E3 /* SMAdActionDelegate.h */,
+				4991A0201312068200E117E3 /* SMAdActionEmail.h */,
+				49919D1A1311D27F00E117E3 /* SMAdActionLaunchURL.h */,
+				4991A1821312471200E117E3 /* SMAdActionMethodCall.h */,
+				4991A2E4131253E600E117E3 /* SMAdActionPhone.h */,
+				4991A0B91312400200E117E3 /* SMAdActionPrintf.h */,
+				4971E5B61329632D00DB2AE1 /* SMAdActionPrompt.h */,
+				4991A2EE1312547000E117E3 /* SMAdActionSaveContact.h */,
+				4991A2F9131254CA00E117E3 /* SMAdActionSaveImage.h */,
+				493451A813246EDC00718E20 /* SMAdActionShowTakeover.h */,
+				4991A24A13124DDB00E117E3 /* SMAdActionSMS.h */,
+				4940425D133A7AC8008F54A1 /* SMAdActionTPB.h */,
+				4948177E131EC11C00873E70 /* SMAdActionVideo.h */,
+				4991B3651314926500E117E3 /* SMAdAuto.h */,
+				4991B373131493A000E117E3 /* SMAdAutoDelegate.h */,
+				498A7A2D1316E4B500D90D37 /* SMAdBannerRendererV1.h */,
+				49498629131D7A70001F8607 /* SMAdBannerRendererV2.h */,
+				49321B44133E9325003216CB /* SMAdBannerRendererV2_2WebViews.h */,
+				496249F5132707E200E0A9E0 /* SMAdBannerView.h */,
+				493B39F61335419500A9DCE1 /* SMAdBannerViewInternal.h */,
+				493B39F81335424B00A9DCE1 /* SMAdBannerViewPrivate.h */,
+				4991978F1310BB4400E117E3 /* SMAdBeacon.h */,
+				495D41E11315D1CF00E381D2 /* SMAdBeaconDelegate.h */,
+				49448C8F130F8CDF00949690 /* SMAdConfig.h */,
+				493B359F13348F1500A9DCE1 /* SMAdConfigPrivate.h */,
+				494DE58E130F4037007BF359 /* SMAdDelegate.h */,
+				49448DB21310854100949690 /* SMAdError.h */,
+				49E45CCA131AE480005B21DB /* SMAdHouseRenderer.h */,
+				49448DF713108D4E00949690 /* SMAdInspector.h */,
+				4991A48A1313111200E117E3 /* SMAdInspectorDelegate.h */,
+				496249031326AE4500E0A9E0 /* SMAdInterstitialRendererV1.h */,
+				496249051326AE4500E0A9E0 /* SMAdInterstitialRendererV2.h */,
+				493B352A13346C3A00A9DCE1 /* SMAdIPrivate.h */,
+				494DE3BE130F18EF007BF359 /* SMAdLoader.h */,
+				494DE556130F3903007BF359 /* SMAdLoaderDelegate.h */,
+				494AD2161325B0B8005B1A1C /* SMAdModel.h */,
+				49448F061310B10000949690 /* SMAdRenderer.h */,
+				49AEF6A01332A6320071E176 /* SMAdRendererAdMeld.h */,
+				4991A662131322FA00E117E3 /* SMAdRendererBase.h */,
+				4991AE3E131439FC00E117E3 /* SMAdRendererHelper.h */,
+				498A7A481316E5C900D90D37 /* SMAdTouchView.h */,
+				498A7A521316E61200D90D37 /* SMAdTouchViewDelegate.h */,
+				498A7EFC1317208C00D90D37 /* SMAdUtility.h */,
+				49543850134279D10021753B /* SMAdVendorLoader.h */,
+				494BD0E3133BC0F1004E7C8B /* SMAdVideoBeaconData.h */,
+				49AF9BBD135623B200F35195 /* SMAdViewController.h */,
+				AA747D9E0F9514B9006C5449 /* SMIntegrationKit_Prefix.pch */,
+				498AD2AC137D9E8400C099DF /* targeting.h */,
+				4991B1251314708400E117E3 /* UIView+Additions.h */,
+				498A7DEF131714C000D90D37 /* VEActionAlert.h */,
+				498A7EAE13171D9700D90D37 /* VEActionClose.h */,
+				498A7E0F131716B800D90D37 /* VEActionEmail.h */,
+				498A7DE21317131100D90D37 /* VEActionSaveContact.h */,
+				498A7DF9131715C100D90D37 /* VEActionSaveImage.h */,
+				498A7E431317195000D90D37 /* VEActionSMS.h */,
+				498A7E6313171A8E00D90D37 /* VEActionURL.h */,
+				498A7CAA1316FC8500D90D37 /* VEActionVideo.h */,
+				4991AECD131443D400E117E3 /* SMAdActionDelegate.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		49543702134249BC0021753B /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				493448591321EB6400718E20 /* SMAdTPB.h */,
+				4934485A1321EB6400718E20 /* SMAdTPB.m */,
+				493448641321ECC100718E20 /* SMAdTPBDelegate.h */,
+			);
+			name = Deprecated;
+			sourceTree = "<group>";
+		};
+		498A7A411316E5A600D90D37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				498A7A491316E5C900D90D37 /* SMAdTouchView.m */,
+				49AF9BBE135623B200F35195 /* SMAdViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		499198831311A34500E117E3 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				498A7A2E1316E4B500D90D37 /* SMAdBannerRendererV1.m */,
+				495FDDEF134BDAB500B5AC37 /* SMAdBannerRendererV2.m */,
+				49321B45133E9325003216CB /* SMAdBannerRendererV2_2WebViews.m */,
+				49E45CCB131AE480005B21DB /* SMAdHouseRenderer.m */,
+				496249041326AE4500E0A9E0 /* SMAdInterstitialRendererV1.m */,
+				496249061326AE4500E0A9E0 /* SMAdInterstitialRendererV2.m */,
+				49AEF6A11332A6320071E176 /* SMAdRendererAdMeld.m */,
+				4991A663131322FA00E117E3 /* SMAdRendererBase.m */,
+				4991AE3F131439FC00E117E3 /* SMAdRendererHelper.m */,
+			);
+			name = Renderers;
+			sourceTree = "<group>";
+		};
+		49919CBE1311CE7600E117E3 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				499197DD1310C74900E117E3 /* SMActionHandler.m */,
+				4934B4411329BB9300B4E2F8 /* SMAdActionAlert.m */,
+				4991A0C01312421F00E117E3 /* SMAdActionBase.m */,
+				498A7E7D13171B2D00D90D37 /* SMAdActionClose.m */,
+				4991A0211312068200E117E3 /* SMAdActionEmail.m */,
+				49919D1B1311D27F00E117E3 /* SMAdActionLaunchURL.m */,
+				4991A1831312471200E117E3 /* SMAdActionMethodCall.m */,
+				4991A2E5131253E600E117E3 /* SMAdActionPhone.m */,
+				4991A0BA1312400200E117E3 /* SMAdActionPrintf.m */,
+				4971E5B71329632D00DB2AE1 /* SMAdActionPrompt.m */,
+				4991A2EF1312547000E117E3 /* SMAdActionSaveContact.m */,
+				4991A2FA131254CA00E117E3 /* SMAdActionSaveImage.m */,
+				493451A913246EDC00718E20 /* SMAdActionShowTakeover.m */,
+				4991A24B13124DDB00E117E3 /* SMAdActionSMS.m */,
+				4940425E133A7AC8008F54A1 /* SMAdActionTPB.m */,
+				4948177F131EC11C00873E70 /* SMAdActionVideo.m */,
+				498A7DF0131714C000D90D37 /* VEActionAlert.m */,
+				498A7EAF13171D9700D90D37 /* VEActionClose.m */,
+				498A7E10131716B800D90D37 /* VEActionEmail.m */,
+				498A7DE31317131100D90D37 /* VEActionSaveContact.m */,
+				498A7DFA131715C100D90D37 /* VEActionSaveImage.m */,
+				498A7E441317195000D90D37 /* VEActionSMS.m */,
+				498A7E6413171A8E00D90D37 /* VEActionURL.m */,
+				498A7CAB1316FC8500D90D37 /* VEActionVideo.m */,
+			);
+			name = Actions;
+			sourceTree = "<group>";
+		};
+		4991AD821313954100E117E3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4991AD851313955200E117E3 /* NSData+Base64.m */,
+				4991B1261314708400E117E3 /* UIView+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* SMIntegrationKit_Prefix.pch in Headers */,
+				494DE362130EFFF7007BF359 /* SMAd.h in Headers */,
+				494DE3C0130F18EF007BF359 /* SMAdLoader.h in Headers */,
+				494DE3C3130F19D6007BF359 /* defs.h in Headers */,
+				494DE557130F3903007BF359 /* SMAdLoaderDelegate.h in Headers */,
+				494DE58F130F4037007BF359 /* SMAdDelegate.h in Headers */,
+				49448C91130F8CDF00949690 /* SMAdConfig.h in Headers */,
+				49448D3C13106EE900949690 /* JSON.h in Headers */,
+				49448D3D13106EE900949690 /* NSObject+JSON.h in Headers */,
+				49448D3F13106EE900949690 /* SBJsonParser.h in Headers */,
+				49448D4113106EE900949690 /* SBJsonStreamParser.h in Headers */,
+				49448D4313106EE900949690 /* SBJsonStreamParserAdapter.h in Headers */,
+				49448D4513106EE900949690 /* SBJsonStreamParserState.h in Headers */,
+				49448D4713106EE900949690 /* SBJsonStreamWriter.h in Headers */,
+				49448D4913106EE900949690 /* SBJsonStreamWriterState.h in Headers */,
+				49448D4B13106EE900949690 /* SBJsonTokeniser.h in Headers */,
+				49448D4D13106EE900949690 /* SBJsonWriter.h in Headers */,
+				49448DB31310854100949690 /* SMAdError.h in Headers */,
+				49448DF913108D4E00949690 /* SMAdInspector.h in Headers */,
+				49448F071310B10000949690 /* SMAdRenderer.h in Headers */,
+				499197911310BB4400E117E3 /* SMAdBeacon.h in Headers */,
+				499197DE1310C74900E117E3 /* SMActionHandler.h in Headers */,
+				49919CB51311CDBE00E117E3 /* SMAdAction.h in Headers */,
+				49919D1C1311D27F00E117E3 /* SMAdActionLaunchURL.h in Headers */,
+				4991A0221312068200E117E3 /* SMAdActionEmail.h in Headers */,
+				4991A0BB1312400200E117E3 /* SMAdActionPrintf.h in Headers */,
+				4991A0C11312421F00E117E3 /* SMAdActionBase.h in Headers */,
+				4991A1841312471200E117E3 /* SMAdActionMethodCall.h in Headers */,
+				4991A20C13124C2400E117E3 /* SMAdActionDelegate.h in Headers */,
+				4991A24C13124DDB00E117E3 /* SMAdActionSMS.h in Headers */,
+				4991A2E6131253E600E117E3 /* SMAdActionPhone.h in Headers */,
+				4991A2F01312547000E117E3 /* SMAdActionSaveContact.h in Headers */,
+				4991A2FB131254CA00E117E3 /* SMAdActionSaveImage.h in Headers */,
+				4991A48B1313111200E117E3 /* SMAdInspectorDelegate.h in Headers */,
+				4991A664131322FA00E117E3 /* SMAdRendererBase.h in Headers */,
+				4991AD861313955200E117E3 /* NSData+Base64.h in Headers */,
+				4991AE40131439FC00E117E3 /* SMAdRendererHelper.h in Headers */,
+				4991AECE131443D400E117E3 /* SMAdActionDelegate.h in Headers */,
+				4991B1271314708400E117E3 /* UIView+Additions.h in Headers */,
+				4991B3671314926500E117E3 /* SMAdAuto.h in Headers */,
+				4991B374131493A000E117E3 /* SMAdAutoDelegate.h in Headers */,
+				495D41E21315D1CF00E381D2 /* SMAdBeaconDelegate.h in Headers */,
+				498A7A2F1316E4B500D90D37 /* SMAdBannerRendererV1.h in Headers */,
+				498A7A4A1316E5C900D90D37 /* SMAdTouchView.h in Headers */,
+				498A7A531316E61200D90D37 /* SMAdTouchViewDelegate.h in Headers */,
+				498A7CAC1316FC8500D90D37 /* VEActionVideo.h in Headers */,
+				498A7DE41317131100D90D37 /* VEActionSaveContact.h in Headers */,
+				498A7DF1131714C000D90D37 /* VEActionAlert.h in Headers */,
+				498A7DFB131715C100D90D37 /* VEActionSaveImage.h in Headers */,
+				498A7E11131716B800D90D37 /* VEActionEmail.h in Headers */,
+				498A7E451317195000D90D37 /* VEActionSMS.h in Headers */,
+				498A7E6513171A8E00D90D37 /* VEActionURL.h in Headers */,
+				498A7E7E13171B2D00D90D37 /* SMAdActionClose.h in Headers */,
+				498A7EB013171D9700D90D37 /* VEActionClose.h in Headers */,
+				498A7EFE1317208C00D90D37 /* SMAdUtility.h in Headers */,
+				49E45CCC131AE480005B21DB /* SMAdHouseRenderer.h in Headers */,
+				4949862B131D7A70001F8607 /* SMAdBannerRendererV2.h in Headers */,
+				49481780131EC11C00873E70 /* SMAdActionVideo.h in Headers */,
+				4934485B1321EB6400718E20 /* SMAdTPB.h in Headers */,
+				493448651321ECC100718E20 /* SMAdTPBDelegate.h in Headers */,
+				493451AA13246EDC00718E20 /* SMAdActionShowTakeover.h in Headers */,
+				494AD2181325B0B8005B1A1C /* SMAdModel.h in Headers */,
+				496249071326AE4500E0A9E0 /* SMAdInterstitialRendererV1.h in Headers */,
+				496249091326AE4500E0A9E0 /* SMAdInterstitialRendererV2.h in Headers */,
+				496249F7132707E200E0A9E0 /* SMAdBannerView.h in Headers */,
+				4971E5B81329632D00DB2AE1 /* SMAdActionPrompt.h in Headers */,
+				4934B4421329BB9300B4E2F8 /* SMAdActionAlert.h in Headers */,
+				49AEF6A21332A6320071E176 /* SMAdRendererAdMeld.h in Headers */,
+				493B352C13346C3A00A9DCE1 /* SMAdIPrivate.h in Headers */,
+				493B35A113348F1500A9DCE1 /* SMAdConfigPrivate.h in Headers */,
+				493B39F71335419500A9DCE1 /* SMAdBannerViewInternal.h in Headers */,
+				493B39FA1335424B00A9DCE1 /* SMAdBannerViewPrivate.h in Headers */,
+				493B3B951336731900A9DCE1 /* Reachability.h in Headers */,
+				4940425F133A7AC8008F54A1 /* SMAdActionTPB.h in Headers */,
+				494BD0E5133BC0F1004E7C8B /* SMAdVideoBeaconData.h in Headers */,
+				49321B46133E9325003216CB /* SMAdBannerRendererV2_2WebViews.h in Headers */,
+				494CECAE13412C6400DFC7CD /* AdWhirlAdapterSayMedia.h in Headers */,
+				49543852134279D10021753B /* SMAdVendorLoader.h in Headers */,
+				49AF9BC0135623B200F35195 /* SMAdViewController.h in Headers */,
+				498AD2AD137D9E8400C099DF /* targeting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* SMIntegrationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SMIntegrationKit" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+				493449AB1321FA6100718E20 /* Build Universal */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMIntegrationKit;
+			productName = SMIntegrationKit;
+			productReference = D2AAC07E0554694100DB518D /* libSMIntegrationKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SMIntegrationKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* SMIntegrationKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* SMIntegrationKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		493449AB1321FA6100718E20 /* Build Universal */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Universal";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Purpose:\n#   Create a static library for iPhone from within XCode\n#   Because Apple staff DELIBERATELY broke Xcode to make this impossible from the GUI (Xcode 3.2.3 specifically states this in the Release notes!)\n#   ...no, I don't understand why they did such a stupid thing either!\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n# More info: see this Stack Overflow question: http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n\n#if [ ! $CONFIGURATION = \"Universal\" ]; then\n#\texit\n#fi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" = ${ALREADYINVOKED} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUULD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\"\nxcodebuild -configuration \"${CONFIGURATION}\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\nfi\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\nCURRENTCONFIG_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\nmkdir \"${CURRENTCONFIG_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nlipo -create -output \"${CURRENTCONFIG_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}/usr/local/include\" ]\nthen\n  mkdir -p \"${CURRENTCONFIG_UNIVERSAL_DIR}/usr/local/include\"\n  cp \"${CURRENTCONFIG_DEVICE_DIR}\"/usr/local/include/* \"${CURRENTCONFIG_UNIVERSAL_DIR}/usr/local/include\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493B3B961336731900A9DCE1 /* Reachability.m in Sources */,
+				49448D4013106EE900949690 /* SBJsonParser.m in Sources */,
+				49448D4213106EE900949690 /* SBJsonStreamParser.m in Sources */,
+				49448D4413106EE900949690 /* SBJsonStreamParserAdapter.m in Sources */,
+				49448D4613106EE900949690 /* SBJsonStreamParserState.m in Sources */,
+				49448D4813106EE900949690 /* SBJsonStreamWriter.m in Sources */,
+				49448D4A13106EE900949690 /* SBJsonStreamWriterState.m in Sources */,
+				49448D4C13106EE900949690 /* SBJsonTokeniser.m in Sources */,
+				49448D4E13106EE900949690 /* SBJsonWriter.m in Sources */,
+				499197DF1310C74900E117E3 /* SMActionHandler.m in Sources */,
+				494DE363130EFFF7007BF359 /* SMAd.m in Sources */,
+				4934B4431329BB9300B4E2F8 /* SMAdActionAlert.m in Sources */,
+				4991A0C21312421F00E117E3 /* SMAdActionBase.m in Sources */,
+				498A7E7F13171B2D00D90D37 /* SMAdActionClose.m in Sources */,
+				4991A0231312068200E117E3 /* SMAdActionEmail.m in Sources */,
+				49919D1D1311D27F00E117E3 /* SMAdActionLaunchURL.m in Sources */,
+				4991A1851312471200E117E3 /* SMAdActionMethodCall.m in Sources */,
+				4991A2E7131253E600E117E3 /* SMAdActionPhone.m in Sources */,
+				4991A0BC1312400200E117E3 /* SMAdActionPrintf.m in Sources */,
+				4971E5B91329632D00DB2AE1 /* SMAdActionPrompt.m in Sources */,
+				4991A2F11312547000E117E3 /* SMAdActionSaveContact.m in Sources */,
+				4991A2FC131254CA00E117E3 /* SMAdActionSaveImage.m in Sources */,
+				493451AB13246EDC00718E20 /* SMAdActionShowTakeover.m in Sources */,
+				4991A24D13124DDB00E117E3 /* SMAdActionSMS.m in Sources */,
+				49404260133A7AC8008F54A1 /* SMAdActionTPB.m in Sources */,
+				49481781131EC11C00873E70 /* SMAdActionVideo.m in Sources */,
+				4991B3681314926500E117E3 /* SMAdAuto.m in Sources */,
+				498A7A301316E4B500D90D37 /* SMAdBannerRendererV1.m in Sources */,
+				49321B47133E9325003216CB /* SMAdBannerRendererV2_2WebViews.m in Sources */,
+				496249F8132707E200E0A9E0 /* SMAdBannerView.m in Sources */,
+				493B39FB1335424B00A9DCE1 /* SMAdBannerViewPrivate.m in Sources */,
+				499197921310BB4400E117E3 /* SMAdBeacon.m in Sources */,
+				49448C92130F8CDF00949690 /* SMAdConfig.m in Sources */,
+				493B35A213348F1500A9DCE1 /* SMAdConfigPrivate.m in Sources */,
+				49E45CCD131AE480005B21DB /* SMAdHouseRenderer.m in Sources */,
+				49448DFA13108D4E00949690 /* SMAdInspector.m in Sources */,
+				496249081326AE4500E0A9E0 /* SMAdInterstitialRendererV1.m in Sources */,
+				4962490A1326AE4500E0A9E0 /* SMAdInterstitialRendererV2.m in Sources */,
+				493B352D13346C3A00A9DCE1 /* SMAdIPrivate.m in Sources */,
+				494DE3C1130F18EF007BF359 /* SMAdLoader.m in Sources */,
+				494AD2191325B0B8005B1A1C /* SMAdModel.m in Sources */,
+				49AEF6A31332A6320071E176 /* SMAdRendererAdMeld.m in Sources */,
+				4991A665131322FA00E117E3 /* SMAdRendererBase.m in Sources */,
+				4991AE41131439FC00E117E3 /* SMAdRendererHelper.m in Sources */,
+				498A7A4B1316E5C900D90D37 /* SMAdTouchView.m in Sources */,
+				498A7EFF1317208C00D90D37 /* SMAdUtility.m in Sources */,
+				49543853134279D10021753B /* SMAdVendorLoader.m in Sources */,
+				494BD0E6133BC0F1004E7C8B /* SMAdVideoBeaconData.m in Sources */,
+				4991B1281314708400E117E3 /* UIView+Additions.m in Sources */,
+				498A7DF2131714C000D90D37 /* VEActionAlert.m in Sources */,
+				498A7EB113171D9700D90D37 /* VEActionClose.m in Sources */,
+				498A7E12131716B800D90D37 /* VEActionEmail.m in Sources */,
+				498A7DE51317131100D90D37 /* VEActionSaveContact.m in Sources */,
+				498A7DFC131715C100D90D37 /* VEActionSaveImage.m in Sources */,
+				498A7E461317195000D90D37 /* VEActionSMS.m in Sources */,
+				498A7E6613171A8E00D90D37 /* VEActionURL.m in Sources */,
+				498A7CAD1316FC8500D90D37 /* VEActionVideo.m in Sources */,
+				495FDDF0134BDAB500B5AC37 /* SMAdBannerRendererV2.m in Sources */,
+				49AF9BC1135623B200F35195 /* SMAdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/SMIntegrationKit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMIntegrationKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = SMIntegrationKit;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SMIntegrationKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMIntegrationKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = SMIntegrationKit;
+				SDKROOT = iphoneos4.3;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.3;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.3;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4959B9B213284F000078C3A1 /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.3;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Universal;
+		};
+		4959B9B313284F000078C3A1 /* Universal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/SMIntegrationKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMIntegrationKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = SMIntegrationKit;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.3;
+				VALID_ARCHS = "i386 armv6 armv7";
+			};
+			name = Universal;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SMIntegrationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+				4959B9B313284F000078C3A1 /* Universal */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Universal;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SMIntegrationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+				4959B9B213284F000078C3A1 /* Universal */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Universal;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

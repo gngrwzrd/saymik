@@ -1,0 +1,498 @@
+TSMAdTester
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/Info.plist SMAdTester-Info.plist
+cCompileXIB /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib
+cCompileXIB /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib
+cCpResource assets/red.png build/Debug-iphonesimulator/SMAdTester.app/red.png
+cCpResource assets/tdbg.png build/Debug-iphonesimulator/SMAdTester.app/tdbg.png
+cCpResource assets/say.png build/Debug-iphonesimulator/SMAdTester.app/say.png
+cCpResource assets/say2.png build/Debug-iphonesimulator/SMAdTester.app/say2.png
+cCpResource assets/brushed.png build/Debug-iphonesimulator/SMAdTester.app/brushed.png
+cProcessPCH /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth source/SMAdTester_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester normal i386
+cGenerateDSYMFile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester
+cTouch /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000506DCFC20000000000000110
+t1349373890
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c00000000505A524F00000000000C0EF0
+t1348096591
+s790256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505A52510000000000228FD0
+t1348096593
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505A525300000000003DCEF0
+t1348096595
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505A525300000000000015F7
+t1348096595
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000505A525700000000002C6C10
+t1348096599
+s2911248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000505A525800000000001144F0
+t1348096600
+s1131760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000505A525A000000000006CC50
+t1348096602
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505A525A0000000000000E8D
+t1348096602
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505A525D0000000000AB3D60
+t1348096605
+s11222368
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAd.h
+c00000000505D86EC0000000000000C79
+t1348306668
+s3193
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAction.h
+c00000000505D86EC00000000000000AF
+t1348306668
+s175
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdActionBase.h
+c00000000505D86EC00000000000003F9
+t1348306668
+s1017
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdActionDelegate.h
+c00000000505D86EC00000000000003E3
+t1348306668
+s995
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAuto.h
+c00000000505D86EC00000000000001D2
+t1348306668
+s466
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdAutoDelegate.h
+c00000000505D86EC0000000000000081
+t1348306668
+s129
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdBannerView.h
+c00000000505D86EC00000000000001BA
+t1348306668
+s442
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdBeaconDelegate.h
+c00000000505D86EC00000000000000AF
+t1348306668
+s175
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdConfig.h
+c00000000505D86EC00000000000002BC
+t1348306668
+s700
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdConfigPrivate.h
+c00000000505D86EC00000000000003F1
+t1348306668
+s1009
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdDelegate.h
+c00000000505D86EC00000000000008D5
+t1348306668
+s2261
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdError.h
+c00000000505D86EC00000000000001E8
+t1348306668
+s488
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdIPrivate.h
+c00000000505D86EC000000000000053F
+t1348306668
+s1343
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdInspector.h
+c00000000505D86EC0000000000000C18
+t1348306668
+s3096
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdInspectorDelegate.h
+c00000000505D86EC0000000000000091
+t1348306668
+s145
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdLoader.h
+c00000000505D86EC00000000000004B3
+t1348306668
+s1203
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdLoaderDelegate.h
+c00000000505D86EC00000000000001BE
+t1348306668
+s446
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdModel.h
+c00000000505D86EC0000000000000B0F
+t1348306668
+s2831
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdRenderer.h
+c00000000505D86EC000000000000012E
+t1348306668
+s302
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdRendererBase.h
+c00000000505D86EC0000000000000500
+t1348306668
+s1280
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/SMAdUtility.h
+c00000000505D86EC0000000000000122
+t1348306668
+s290
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/UIView+Additions.h
+c00000000505D86EC0000000000000086
+t1348306668
+s134
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/source/defs.h
+c00000000505D86EC0000000000000838
+t1348306668
+s2104
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib
+c00000000505D86EC0000000000004E4D
+t1348306668
+s20045
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib
+c00000000505D86EC000000000000B912
+t1348306668
+s47378
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/brushed.png
+c00000000505D86EC00000000000011D3
+t1348306668
+s4563
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/red.png
+c00000000505D86EC00000000000004CB
+t1348306668
+s1227
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/say.png
+c00000000505D86EC0000000000000A64
+t1348306668
+s2660
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/say2.png
+c00000000505D86EC0000000000000E97
+t1348306668
+s3735
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/tdbg.png
+c00000000505D86EC0000000000000788
+t1348306668
+s1928
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app
+t1349770316
+s408
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM
+t1349770316
+s102
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/Info.plist
+t1349770312
+s635
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/MainWindow.nib
+t1349770312
+s1176
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/PkgInfo
+t1349770312
+s8
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester
+t1349770316
+s552824
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTesterViewController.nib
+t1349770315
+s4163
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/brushed.png
+t1349770312
+s4563
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/red.png
+t1349770312
+s1227
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/say.png
+t1349770312
+s2660
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/say2.png
+t1349770312
+s3735
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/tdbg.png
+t1349770312
+s1928
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTester.LinkFileList
+c000000005073DC4800000000000001E7
+t1349770312
+s487
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o
+t1349770315
+s87792
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o
+t1349770315
+s122944
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o
+t1349770315
+s3912
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.h
+c00000000505D86EC000000000000015A
+t1348306668
+s346
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m
+c00000000505D86EC0000000000000216
+t1348306668
+s534
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.h
+c00000000505D86EC0000000000000543
+t1348306668
+s1347
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m
+c00000000505D86EC0000000000002131
+t1348306668
+s8497
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTester_Prefix.pch
+c00000000505D86EC00000000000000BD
+t1348306668
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m
+c00000000505D86EC00000000000000E6
+t1348306668
+s230
+
+N/Users/aaronsmith/Development/Aaron/saymik/iphone/SMIntegrationKit/build/Debug-iphonesimulator/libSMIntegrationKit.a
+c000000005073DB5D0000000000420D28
+t1349770077
+s4328744
+
+N/var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth
+t1349770315
+s4785584
+
+NSMAdTester-Info.plist
+c00000000505D86EC00000000000003B4
+t1348306668
+s948
+
+CBuild AST from /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m
+r0
+
+CBuild AST from /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m
+r0
+
+CBuild AST from /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1f9d7ef01324b641^207e8af01324b641^---0#1#0#--18"Check dependencies36"6882C980-03B7-4058-9CEB-57AAA76EEC9F-
+
+CCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371463115.611495
+e371463115.894220
+r1
+xCompileC
+xbuild/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m15e6a1cb1324b641^18eee4cb1324b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m0000000000000000^3921"CompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o source/SMAdTesterAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=3.0 -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-generated-files.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-own-target-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-all-target-headers.hmap -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-project-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources/i386 -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources -F/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator -include /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch -MMD -MT dependencies -MF /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.d --serialize-diagnostics /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.dia -c /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterAppDelegate.m -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterAppDelegate.o36"D95620C3-2358-4098-9F2A-E35C9F2ECA81-
+
+CCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371463115.610360
+e371463115.939994
+r1
+xCompileC
+xbuild/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.mdc689ccb1324b641^1cb3f0cb1324b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m0000000000000000^3939"CompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o source/SMAdTesterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=3.0 -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-generated-files.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-own-target-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-all-target-headers.hmap -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-project-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources/i386 -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources -F/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator -include /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch -MMD -MT dependencies -MF /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.d --serialize-diagnostics /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.dia -c /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTesterViewController.m -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTesterViewController.o36"8047605C-DBEF-4484-A580-6C29434B076C-
+
+CCompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371463115.895545
+e371463116.006969
+r1
+xCompileC
+xbuild/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m7f69e5cb1324b641^7cd601cc1324b641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m0000000000000000^3819"CompileC build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o source/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=3.0 -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-generated-files.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-own-target-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-all-target-headers.hmap -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-project-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources/i386 -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources -F/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator -include /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch -MMD -MT dependencies -MF /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.dia -c /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/main.m -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/main.o36"8465D8B6-D212-45E9-9552-003107D0DFD8-
+
+CCompileXIB /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib
+s371463112.732509
+e371463112.871153
+r1
+xCompileXIB
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib59a6bbc81324b641^8319dfc81324b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib0000000000000000^942"CompileXIB assets/MainWindow.xib    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/MainWindow.nib /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"DD89F0B0-6EA7-45FD-A0EA-B7CC38CE4937-
+
+CCompileXIB /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib
+s371463112.734888
+e371463115.056876
+r1
+xCompileXIB
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib
+o2012-10-09 01:11:54.653 Interface Builder Cocoa Touch Tool[13003:f07] CFPreferences: user home directory at file://localhost/Users/aaronsmith/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xibe737bcc81324b641^ef900ecb1324b641^-243"2012-10-09 01:11:54.653 Interface Builder Cocoa Touch Tool[13003:f07] CFPreferences: user home directory at file://localhost/Users/aaronsmith/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib0000000000000000^984"CompileXIB assets/SMAdTesterViewController.xib    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTesterViewController.nib /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/SMAdTesterViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"46C2177D-C936-44F8-83D4-4F0320B98A1D-
+
+CCpResource assets/brushed.png build/Debug-iphonesimulator/SMAdTester.app/brushed.png
+s371463112.947218
+e371463112.960050
+r1
+xCpResource
+xassets/brushed.png
+xbuild/Debug-iphonesimulator/SMAdTester.app/brushed.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/SMAdTester.app/brushed.pngd09bf2c81324b641^8cd6f5c81324b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/brushed.png000000000080d041^644"CpResource assets/brushed.png build/Debug-iphonesimulator/SMAdTester.app/brushed.png    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/brushed.png /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"015BF238-C93C-4B14-B220-FD159A2587F2-
+
+CCpResource assets/red.png build/Debug-iphonesimulator/SMAdTester.app/red.png
+s371463112.872403
+e371463112.877251
+r1
+xCpResource
+xassets/red.png
+xbuild/Debug-iphonesimulator/SMAdTester.app/red.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/SMAdTester.app/red.png1a6fdfc81324b641^e31ce9c81324b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/red.png000000000080d041^632"CpResource assets/red.png build/Debug-iphonesimulator/SMAdTester.app/red.png    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/red.png /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"60FE582A-E5DA-4B83-A489-C48881306A6E-
+
+CCpResource assets/say.png build/Debug-iphonesimulator/SMAdTester.app/say.png
+s371463112.883319
+e371463112.910776
+r1
+xCpResource
+xassets/say.png
+xbuild/Debug-iphonesimulator/SMAdTester.app/say.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/SMAdTester.app/say.png1138e2c81324b641^cd76e9c81324b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/say.png000000000080d041^632"CpResource assets/say.png build/Debug-iphonesimulator/SMAdTester.app/say.png    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/say.png /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"33DEEAC5-C154-4482-AB51-58E7D1C9B68E-
+
+CCpResource assets/say2.png build/Debug-iphonesimulator/SMAdTester.app/say2.png
+s371463112.920251
+e371463112.945150
+r1
+xCpResource
+xassets/say2.png
+xbuild/Debug-iphonesimulator/SMAdTester.app/say2.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/SMAdTester.app/say2.png19adebc81324b641^0edbf2c81324b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/say2.png000000000080d041^635"CpResource assets/say2.png build/Debug-iphonesimulator/SMAdTester.app/say2.png    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/say2.png /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"4A78E371-D2DA-4764-AA36-3EA144E46029-
+
+CCpResource assets/tdbg.png build/Debug-iphonesimulator/SMAdTester.app/tdbg.png
+s371463112.878461
+e371463112.882082
+r1
+xCpResource
+xassets/tdbg.png
+xbuild/Debug-iphonesimulator/SMAdTester.app/tdbg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/SMAdTester.app/tdbg.png7efde0c81324b641^1971e9c81324b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/tdbg.png000000000080d041^635"CpResource assets/tdbg.png build/Debug-iphonesimulator/SMAdTester.app/tdbg.png    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/assets/tdbg.png /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"ECE90AB2-7AF6-4C79-B8D3-B2788CF2995F-
+
+CGenerateDSYMFile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester
+s371463116.194916
+e371463116.536536
+r1
+xGenerateDSYMFile
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM1d1e32cc1324b641^a37489cc1324b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM000000000080d041^709"GenerateDSYMFile build/Debug-iphonesimulator/SMAdTester.app.dSYM build/Debug-iphonesimulator/SMAdTester.app/SMAdTester    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app.dSYM36"AEE2C268-11C4-4B52-A3C3-530F3BE28F0A-
+
+CLd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester normal i386
+s371463116.013860
+e371463116.177118
+r1
+xLd
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester
+xnormal
+xi386
+old: warning: directory not found for option '-L/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/build/Universal-universal'
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTesterceaa03cc1324b641^d2562dcc1324b641^-155"ld: warning: directory not found for option '-L/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/build/Universal-universal'1(21%IDEActivityLogMessage2@141"Directory not found for option '-L/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/build/Universal-universal'-371463116#0#155#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--1596"Ld build/Debug-iphonesimulator/SMAdTester.app/SMAdTester normal i386    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator -L/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/../SMIntegrationKit/build/Universal-universal -F/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator -filelist /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/Objects-normal/i386/SMAdTester.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=3.0 -framework AddressBook -framework CoreGraphics -framework Foundation -framework MediaPlayer -weak_framework MessageUI -framework SystemConfiguration -framework UIKit /Users/aaronsmith/Development/Aaron/saymik/iphone/SMIntegrationKit/build/Debug-iphonesimulator/libSMIntegrationKit.a -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/SMAdTester36"4B45EF6A-EFBE-4B08-B930-40707291D830-
+
+CProcessInfoPlistFile /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/Info.plist SMAdTester-Info.plist
+s371463112.704924
+e371463112.709545
+r1
+xProcessInfoPlistFile
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/Info.plist
+xSMAdTester-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Process SMAdTester-Info.plist938cb4c81324b641^cb2cb6c81324b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/SMAdTester-Info.plist0000000000000000^715"ProcessInfoPlistFile build/Debug-iphonesimulator/SMAdTester.app/Info.plist SMAdTester-Info.plist    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SMAdTester-Info.plist -genpkginfo /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app/Info.plist36"EB439698-8148-477F-B332-0223787D4BBA-
+
+CProcessPCH /Users/aaronsmith/Library/Developer/Xcode/DerivedData/SMAdTester-cvaqryosmlhbjfcrgagoerjchiss/Index/PrecompiledHeaders/SMAdTester_Prefix-dlnowofdcbcdfdfvkhcjlblpggbx_ast/SMAdTester_Prefix.pch.pth source/SMAdTester_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth source/SMAdTester_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s371463115.064866
+e371463115.603492
+r1
+xProcessPCH
+x/var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth
+xsource/SMAdTester_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile source/SMAdTester_Prefix.pch0dc210cb1324b641^b39a9acb1324b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTester_Prefix.pch0000000000000000^3811"ProcessPCH /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth source/SMAdTester_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=3.0 -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-generated-files.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-own-target-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-all-target-headers.hmap -iquote /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/SMAdTester-project-headers.hmap -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources/i386 -I/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/SMAdTester.build/Debug-iphonesimulator/SMAdTester.build/DerivedSources -F/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.dia -c /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/source/SMAdTester_Prefix.pch -o /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/jb/mdv1vyh522l5sycgpd9t33br0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMAdTester_Prefix-gsngswsyyhywwmbljmncswhsnkvi/SMAdTester_Prefix.pch.d36"73D4A45B-62D2-46C4-BF47-D6304134E1A7-
+
+CTouch /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app
+s371463116.544285
+e371463116.561146
+r1
+xTouch
+x/Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.appad688bcc1324b641^d0b98fcc1324b641^---0#0#0#--438"Touch build/Debug-iphonesimulator/SMAdTester.app    cd /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aaronsmith/Development/Aaron/saymik/iphone/SMAdTester/build/Debug-iphonesimulator/SMAdTester.app36"F5F1DA6D-5A33-4B9F-8B3E-7FA1FA00C8BC-
+

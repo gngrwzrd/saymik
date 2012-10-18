@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SMAdTesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SMAdTesterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SMAdTesterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SMAdTesterViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SMAdTesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SMAdTesterViewController.m */; };
+		493B3BD4133677CA00A9DCE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493B3BD3133677CA00A9DCE1 /* SystemConfiguration.framework */; };
+		494A121C131EDA9600F5ADA9 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 494A121B131EDA9600F5ADA9 /* red.png */; };
+		494A1259131EDC4600F5ADA9 /* tdbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 494A1258131EDC4600F5ADA9 /* tdbg.png */; };
+		494A1283131EDDC000F5ADA9 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494A1282131EDDC000F5ADA9 /* AddressBook.framework */; };
+		494A1285131EDDC000F5ADA9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494A1284131EDDC000F5ADA9 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		494A12ED131EEDD900F5ADA9 /* say.png in Resources */ = {isa = PBXBuildFile; fileRef = 494A12EC131EEDD900F5ADA9 /* say.png */; };
+		4980310D13200B050096D2FE /* say2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4980310C13200B050096D2FE /* say2.png */; };
+		498033D313202C070096D2FE /* brushed.png in Resources */ = {isa = PBXBuildFile; fileRef = 498033D213202C070096D2FE /* brushed.png */; };
+		498F40B313720D2C00E225D1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498F40B213720D2C00E225D1 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		49EB5CCF13847B5200CF773C /* libSMIntegrationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EB5CCB13847B3600CF773C /* libSMIntegrationKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49EB5CCA13847B3600CF773C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EB5CC613847B3600CF773C /* SMIntegrationKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SMIntegrationKit;
+		};
+		49EB5CCD13847B4D00CF773C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49EB5CC613847B3600CF773C /* SMIntegrationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = SMIntegrationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SMAdTesterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTesterAppDelegate.h; path = source/SMAdTesterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SMAdTesterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAdTesterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SMAdTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMAdTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SMAdTesterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SMAdTesterViewController.xib; path = assets/SMAdTesterViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = assets/MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SMAdTesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTesterViewController.h; path = source/SMAdTesterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SMAdTesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAdTesterViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SMAdTester_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdTester_Prefix.pch; path = source/SMAdTester_Prefix.pch; sourceTree = "<group>"; };
+		493B358313346EB200A9DCE1 /* SMAdIPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdIPrivate.h; path = ../SMIntegrationKit/source/SMAdIPrivate.h; sourceTree = SOURCE_ROOT; };
+		493B35C213348FAE00A9DCE1 /* SMAdConfigPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdConfigPrivate.h; path = ../SMIntegrationKit/source/SMAdConfigPrivate.h; sourceTree = SOURCE_ROOT; };
+		493B399613353E8800A9DCE1 /* SMAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerView.h; path = ../SMIntegrationKit/source/SMAdBannerView.h; sourceTree = SOURCE_ROOT; };
+		493B3BD3133677CA00A9DCE1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		494A121B131EDA9600F5ADA9 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = assets/red.png; sourceTree = "<group>"; };
+		494A1258131EDC4600F5ADA9 /* tdbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tdbg.png; path = assets/tdbg.png; sourceTree = "<group>"; };
+		494A1282131EDDC000F5ADA9 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		494A1284131EDDC000F5ADA9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		494A1297131EDE2600F5ADA9 /* SMAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAd.h; path = ../SMIntegrationKit/source/SMAd.h; sourceTree = SOURCE_ROOT; };
+		494A1298131EDE2600F5ADA9 /* SMAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdDelegate.h; path = ../SMIntegrationKit/source/SMAdDelegate.h; sourceTree = SOURCE_ROOT; };
+		494A129A131EDE2600F5ADA9 /* SMAdConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdConfig.h; path = ../SMIntegrationKit/source/SMAdConfig.h; sourceTree = SOURCE_ROOT; };
+		494A12EC131EEDD900F5ADA9 /* say.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say.png; path = assets/say.png; sourceTree = "<group>"; };
+		4980310C13200B050096D2FE /* say2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = say2.png; path = assets/say2.png; sourceTree = "<group>"; };
+		498033D213202C070096D2FE /* brushed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brushed.png; path = assets/brushed.png; sourceTree = "<group>"; };
+		498F40B213720D2C00E225D1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		49EB5CC613847B3600CF773C /* SMIntegrationKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SMIntegrationKit.xcodeproj; path = ../SMIntegrationKit/SMIntegrationKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* SMAdTester-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SMAdTester-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494A1283131EDDC000F5ADA9 /* AddressBook.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				494A1285131EDDC000F5ADA9 /* MediaPlayer.framework in Frameworks */,
+				498F40B313720D2C00E225D1 /* MessageUI.framework in Frameworks */,
+				493B3BD4133677CA00A9DCE1 /* SystemConfiguration.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				49EB5CCF13847B5200CF773C /* libSMIntegrationKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1D3623250D0F684500981E51 /* SMAdTesterAppDelegate.m */,
+				28D7ACF70DDB3853001CB0EB /* SMAdTesterViewController.m */,
+			);
+			name = Source;
+			path = source;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SMAdTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				49EB5CC413847B2F00CF773C /* Projects */,
+				494A1220131EDAF100F5ADA9 /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				498033D213202C070096D2FE /* brushed.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				494A121B131EDA9600F5ADA9 /* red.png */,
+				494A12EC131EEDD900F5ADA9 /* say.png */,
+				4980310C13200B050096D2FE /* say2.png */,
+				8D1107310486CEB800E47090 /* SMAdTester-Info.plist */,
+				2899E5210DE3E06400AC0155 /* SMAdTesterViewController.xib */,
+				494A1258131EDC4600F5ADA9 /* tdbg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494A1282131EDDC000F5ADA9 /* AddressBook.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				494A1284131EDDC000F5ADA9 /* MediaPlayer.framework */,
+				498F40B213720D2C00E225D1 /* MessageUI.framework */,
+				494A1295131EDE2000F5ADA9 /* SMAdIntegrationKit */,
+				493B3BD3133677CA00A9DCE1 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494A1220131EDAF100F5ADA9 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SMAdTester_Prefix.pch */,
+				1D3623240D0F684500981E51 /* SMAdTesterAppDelegate.h */,
+				28D7ACF60DDB3853001CB0EB /* SMAdTesterViewController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		494A1295131EDE2000F5ADA9 /* SMAdIntegrationKit */ = {
+			isa = PBXGroup;
+			children = (
+				494A1297131EDE2600F5ADA9 /* SMAd.h */,
+				493B399613353E8800A9DCE1 /* SMAdBannerView.h */,
+				494A129A131EDE2600F5ADA9 /* SMAdConfig.h */,
+				493B35C213348FAE00A9DCE1 /* SMAdConfigPrivate.h */,
+				494A1298131EDE2600F5ADA9 /* SMAdDelegate.h */,
+				493B358313346EB200A9DCE1 /* SMAdIPrivate.h */,
+			);
+			name = SMAdIntegrationKit;
+			sourceTree = "<group>";
+		};
+		49EB5CC413847B2F00CF773C /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				49EB5CC613847B3600CF773C /* SMIntegrationKit.xcodeproj */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		49EB5CC713847B3600CF773C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EB5CCB13847B3600CF773C /* libSMIntegrationKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SMAdTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMAdTester" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49EB5CCE13847B4D00CF773C /* PBXTargetDependency */,
+			);
+			name = SMAdTester;
+			productName = SMAdTester;
+			productReference = 1D6058910D05DD3D006BFB54 /* SMAdTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMAdTester" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 49EB5CC713847B3600CF773C /* Products */;
+					ProjectRef = 49EB5CC613847B3600CF773C /* SMIntegrationKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SMAdTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		49EB5CCB13847B3600CF773C /* libSMIntegrationKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSMIntegrationKit.a;
+			remoteRef = 49EB5CCA13847B3600CF773C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SMAdTesterViewController.xib in Resources */,
+				494A121C131EDA9600F5ADA9 /* red.png in Resources */,
+				494A1259131EDC4600F5ADA9 /* tdbg.png in Resources */,
+				494A12ED131EEDD900F5ADA9 /* say.png in Resources */,
+				4980310D13200B050096D2FE /* say2.png in Resources */,
+				498033D313202C070096D2FE /* brushed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SMAdTesterAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SMAdTesterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49EB5CCE13847B4D00CF773C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMIntegrationKit;
+			targetProxy = 49EB5CCD13847B4D00CF773C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMAdTester_Prefix.pch;
+				INFOPLIST_FILE = "SMAdTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SMIntegrationKit/build/Universal-universal\"",
+				);
+				PRODUCT_NAME = SMAdTester;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMAdTester_Prefix.pch;
+				INFOPLIST_FILE = "SMAdTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SMIntegrationKit/build/Universal-universal\"",
+				);
+				PRODUCT_NAME = SMAdTester;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMAdTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMAdTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

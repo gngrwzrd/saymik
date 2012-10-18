@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SMAdExampleiPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SMAdExampleiPadAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SMAdExampleiPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SMAdExampleiPadViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SMAdExampleiPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SMAdExampleiPadViewController.m */; };
+		4950B39913386A2A0032B885 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4950B39813386A2A0032B885 /* SystemConfiguration.framework */; };
+		49DBFB05134BFA7C004B8893 /* libSMIntegrationKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DBFB00134BFA7C004B8893 /* libSMIntegrationKit.a */; };
+		49E44D2B1333EC9800CFE172 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E44D2A1333EC9800CFE172 /* AddressBook.framework */; };
+		49E44D2D1333EC9800CFE172 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E44D2C1333EC9800CFE172 /* MediaPlayer.framework */; };
+		49E44D2F1333EC9800CFE172 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E44D2E1333EC9800CFE172 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		49E44D731333ED9B00CFE172 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E44D6F1333ED9B00CFE172 /* banner.png */; };
+		49E44D741333ED9B00CFE172 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E44D701333ED9B00CFE172 /* bg.png */; };
+		49E44D751333ED9B00CFE172 /* intersticial.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E44D711333ED9B00CFE172 /* intersticial.png */; };
+		49E44D761333ED9B00CFE172 /* saybtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E44D721333ED9B00CFE172 /* saybtn.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SMAdExampleiPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdExampleiPadAppDelegate.h; path = source/SMAdExampleiPadAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SMAdExampleiPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdExampleiPadAppDelegate.m; path = source/SMAdExampleiPadAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SMAdExampleiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMAdExampleiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SMAdExampleiPadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SMAdExampleiPadViewController.xib; path = assets/SMAdExampleiPadViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = assets/MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SMAdExampleiPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdExampleiPadViewController.h; path = source/SMAdExampleiPadViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SMAdExampleiPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMAdExampleiPadViewController.m; path = source/SMAdExampleiPadViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = source/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SMAdExampleiPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdExampleiPad_Prefix.pch; path = source/SMAdExampleiPad_Prefix.pch; sourceTree = "<group>"; };
+		4950B39813386A2A0032B885 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		49DBFB00134BFA7C004B8893 /* libSMIntegrationKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSMIntegrationKit.a; path = frameworks/libSMIntegrationKit.a; sourceTree = "<group>"; };
+		49DBFB01134BFA7C004B8893 /* SMAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAd.h; path = frameworks/SMAd.h; sourceTree = "<group>"; };
+		49DBFB02134BFA7C004B8893 /* SMAdBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdBannerView.h; path = frameworks/SMAdBannerView.h; sourceTree = "<group>"; };
+		49DBFB03134BFA7C004B8893 /* SMAdConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdConfig.h; path = frameworks/SMAdConfig.h; sourceTree = "<group>"; };
+		49DBFB04134BFA7C004B8893 /* SMAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMAdDelegate.h; path = frameworks/SMAdDelegate.h; sourceTree = "<group>"; };
+		49E44D2A1333EC9800CFE172 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		49E44D2C1333EC9800CFE172 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		49E44D2E1333EC9800CFE172 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		49E44D6F1333ED9B00CFE172 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banner.png; path = assets/banner.png; sourceTree = "<group>"; };
+		49E44D701333ED9B00CFE172 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = assets/bg.png; sourceTree = "<group>"; };
+		49E44D711333ED9B00CFE172 /* intersticial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = intersticial.png; path = assets/intersticial.png; sourceTree = "<group>"; };
+		49E44D721333ED9B00CFE172 /* saybtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saybtn.png; path = assets/saybtn.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SMAdExampleiPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SMAdExampleiPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				49E44D2B1333EC9800CFE172 /* AddressBook.framework in Frameworks */,
+				49E44D2D1333EC9800CFE172 /* MediaPlayer.framework in Frameworks */,
+				49E44D2F1333EC9800CFE172 /* MessageUI.framework in Frameworks */,
+				4950B39913386A2A0032B885 /* SystemConfiguration.framework in Frameworks */,
+				49DBFB05134BFA7C004B8893 /* libSMIntegrationKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SMAdExampleiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				49E44D0D1333EBEA00CFE172 /* Source */,
+				49E44D0A1333EBDD00CFE172 /* Headers */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49E44D6F1333ED9B00CFE172 /* banner.png */,
+				49E44D701333ED9B00CFE172 /* bg.png */,
+				49E44D711333ED9B00CFE172 /* intersticial.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				49E44D721333ED9B00CFE172 /* saybtn.png */,
+				8D1107310486CEB800E47090 /* SMAdExampleiPad-Info.plist */,
+				2899E5210DE3E06400AC0155 /* SMAdExampleiPadViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E44D2A1333EC9800CFE172 /* AddressBook.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				49E44D2C1333EC9800CFE172 /* MediaPlayer.framework */,
+				49E44D2E1333EC9800CFE172 /* MessageUI.framework */,
+				49E44D191333EC2F00CFE172 /* SMAdIntegrationKit */,
+				4950B39813386A2A0032B885 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E44D0A1333EBDD00CFE172 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SMAdExampleiPad_Prefix.pch */,
+				1D3623240D0F684500981E51 /* SMAdExampleiPadAppDelegate.h */,
+				28D7ACF60DDB3853001CB0EB /* SMAdExampleiPadViewController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		49E44D0D1333EBEA00CFE172 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				1D3623250D0F684500981E51 /* SMAdExampleiPadAppDelegate.m */,
+				28D7ACF70DDB3853001CB0EB /* SMAdExampleiPadViewController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		49E44D191333EC2F00CFE172 /* SMAdIntegrationKit */ = {
+			isa = PBXGroup;
+			children = (
+				49DBFB00134BFA7C004B8893 /* libSMIntegrationKit.a */,
+				49DBFB01134BFA7C004B8893 /* SMAd.h */,
+				49DBFB02134BFA7C004B8893 /* SMAdBannerView.h */,
+				49DBFB03134BFA7C004B8893 /* SMAdConfig.h */,
+				49DBFB04134BFA7C004B8893 /* SMAdDelegate.h */,
+			);
+			name = SMAdIntegrationKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SMAdExampleiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMAdExampleiPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMAdExampleiPad;
+			productName = SMAdExampleiPad;
+			productReference = 1D6058910D05DD3D006BFB54 /* SMAdExampleiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMAdExampleiPad" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SMAdExampleiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SMAdExampleiPadViewController.xib in Resources */,
+				49E44D731333ED9B00CFE172 /* banner.png in Resources */,
+				49E44D741333ED9B00CFE172 /* bg.png in Resources */,
+				49E44D751333ED9B00CFE172 /* intersticial.png in Resources */,
+				49E44D761333ED9B00CFE172 /* saybtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SMAdExampleiPadAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SMAdExampleiPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMAdExampleiPad_Prefix.pch;
+				INFOPLIST_FILE = "SMAdExampleiPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = SMAdExampleiPad;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = source/SMAdExampleiPad_Prefix.pch;
+				INFOPLIST_FILE = "SMAdExampleiPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/frameworks\"",
+				);
+				PRODUCT_NAME = SMAdExampleiPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMAdExampleiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMAdExampleiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
